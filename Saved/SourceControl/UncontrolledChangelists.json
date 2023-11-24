@@ -1,0 +1,24 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Unreal_projects/Capstone/capstone_project/Content/ThirdPerson/Maps/Vanpire_Boss_Room.umap",
+				"D:/Unreal_projects/Capstone/capstone_project/Content/ThirdPerson/Blueprints/BP_TestEnemy.uasset",
+				"D:/Program Files/Epic Game/UE_5.3/Engine/Content/BasicShapes/Cube.uasset",
+				"D:/Unreal_projects/Capstone/capstone_project/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/Unreal_projects/Capstone/capstone_project/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/4U/63Q7DI64EUGUYCYC145H2G.uasset",
+				"D:/Unreal_projects/Capstone/capstone_project/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/8B/H2CQ5HUAZXKYLTFEUNKODH.uasset",
+				"D:/Unreal_projects/Capstone/capstone_project/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
+				"D:/Unreal_projects/Capstone/capstone_project/Content/Characters/Mannequins/Animations/ABP_Quinn.uasset",
+				"D:/Unreal_projects/Capstone/capstone_project/Content/RollsAndDodges/Animations/RootMotion/RollForward_Root.uasset",
+				"D:/Unreal_projects/Capstone/capstone_project/Content/RollsAndDodges/Animations/RootMotion/RollForward_Root_Montage.uasset",
+				"D:/Unreal_projects/Capstone/capstone_project/Content/Health_Bar.uasset",
+				"C:/Users/andre/OneDrive/Documents/Unreal Projects/capstone/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/andre/OneDrive/Documents/Unreal Projects/capstone/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset"
+			]
+		}
+	]
+}
