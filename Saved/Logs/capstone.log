@@ -9723,3 +9723,528 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2024.01.05-20.43.44:375][785]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
 [2024.01.05-20.43.44:391][785]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
 [2024.01.05-20.43.44:400][785]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 4.28 sec)
+[2024.01.05-20.44.47:560][  8]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_771
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:298][ 12]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_772
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:317][ 13]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_773
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:345][ 14]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_774
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:378][ 15]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_775
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:400][ 16]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_776
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:423][ 17]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_777
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:448][ 18]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_778
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:470][ 19]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_779
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:493][ 20]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_780
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:512][ 21]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_781
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:534][ 22]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_782
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:557][ 23]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_783
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:580][ 24]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_784
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:600][ 25]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_785
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:621][ 26]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_786
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:641][ 27]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_787
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:661][ 28]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_788
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:683][ 29]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_789
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:703][ 30]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_790
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:723][ 31]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_791
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:742][ 32]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_792
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:764][ 33]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_793
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:782][ 34]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_794
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:800][ 35]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_795
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:817][ 36]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_796
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:838][ 37]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_797
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:855][ 38]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_798
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:871][ 39]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_799
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:886][ 40]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_800
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:902][ 41]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_801
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:919][ 42]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_802
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:935][ 43]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_803
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:952][ 44]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_804
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:967][ 45]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_805
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.48:984][ 46]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_806
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.49:002][ 47]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_807
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.49:021][ 48]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_808
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.49:039][ 49]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_809
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.49:057][ 50]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_810
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.44.49:075][ 51]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_811
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.45.30:697][207]LogSlate: Window 'ABP_SpectralWarden' being destroyed
+[2024.01.05-20.45.30:705][207]LogSlate: Window 'ABP_SpectralWarden' being destroyed
+[2024.01.05-20.45.30:771][207]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2024.01.05-20.45.30:771][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.05-20.45.30:830][207]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2024.01.05-20.45.30:830][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.05-20.45.30:852][207]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2024.01.05-20.45.30:852][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.05-20.45.30:868][207]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2024.01.05-20.45.30:868][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.05-20.45.30:947][207]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2024.01.05-20.45.30:947][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.05-20.45.32:072][282]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/BossyEnemy/SpectralWarden/Spear.Spear
+[2024.01.05-20.45.32:117][282]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.05-20.45.32:117][282]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.05-20.45.32:748][282]LogViewport: Scene viewport resized to 1877x1254, mode Windowed.
+[2024.01.05-20.45.37:793][583]LogViewport: Scene viewport resized to 1258x643, mode Windowed.
+[2024.01.05-20.45.40:375][651]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.05-20.45.40:383][651]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.05-20.45.40:383][651]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.05-20.45.40:384][651]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 51 ms)
+[2024.01.05-20.45.40:384][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.05-20.45.40:385][651]PIE: New page: PIE session: ThirdPersonMap (Jan 5, 2024, 10:45:40 AM)
+[2024.01.05-20.45.40:385][651]LogPlayLevel: Display: Creating online subsystem for client :Context_94
+[2024.01.05-20.45.40:387][651]LogOnline: OSS: Created online subsystem instance for: :Context_94
+[2024.01.05-20.45.40:411][652]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.05-20.45.40:415][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004837s)
+[2024.01.05-20.45.40:415][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004874s)
+[2024.01.05-20.45.40:431][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.01.05-20.45.40:441][652]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.05-20.45.40:441][652]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.05-20.45.40:441][652]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.05-20.45.40:442][652]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.05-20.45.40:442][652]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.05-20.45.40:442][652]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.05-20.45.40:442][652]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.05-20.45.40:443][652]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.05-20.45.40:443][652]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 183 ms)
+[2024.01.05-20.45.40:443][652]LogPlayLevel: PIE: World Init took: (0.002392s)
+[2024.01.05-20.45.40:443][652]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2024.01.05-20.45.40:443][652]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.05-20.45.40:443][652]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.05-20.45.40:443][652]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.05-20.45.40:443][652]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.05-20.45.40:443][652]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.05-20.45.40:443][652]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.05-20.45.40:443][652]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.05-20.45.40:443][652]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.05-20.45.40:443][652]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.05-20.45.40:443][652]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.05-20.45.40:443][652]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.05-20.45.40:445][652]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.05-20.45.40:487][652]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 Pro)
+[2024.01.05-20.45.40:487][652]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.05-20.45.40:487][652]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.05-20.45.40:487][652]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.05-20.45.40:487][652]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2024.01.05-20.45.40:487][652]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2024.01.05-20.45.40:490][652]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2024.01.05-20.45.40:490][652]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2024.01.05-20.45.40:490][652]LogInit: FAudioDevice initialized with ID 31.
+[2024.01.05-20.45.40:490][652]LogAudio: Display: Audio Device (ID: 31) registered with world 'ThirdPersonMap'.
+[2024.01.05-20.45.40:490][652]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 31
+[2024.01.05-20.45.40:493][652]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.05-20.45.40:497][652]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.05-15.45.40
+[2024.01.05-20.45.40:500][652]LogWorld: Bringing up level for play took: 0.006565
+[2024.01.05-20.45.40:505][652]PIE: Server logged in
+[2024.01.05-20.45.40:505][652]PIE: Play in editor total start time 0.123 seconds.
+[2024.01.05-20.45.43:021][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.05-20.45.43:021][852]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.05-20.45.43:022][852]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.05-20.45.43:022][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.05-20.45.43:022][852]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.05-20.45.43:026][852]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.05-20.45.43:032][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.05-20.45.43:046][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.05-20.45.43:046][852]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 31
+[2024.01.05-20.45.43:046][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2024.01.05-20.45.43:048][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2024.01.05-20.45.43:057][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.01.05-20.45.43:137][854]LogPlayLevel: Display: Destroying online subsystem :Context_94
+[2024.01.05-20.45.46:338][ 31]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_812
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.45.46:361][ 32]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_813
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.45.46:382][ 33]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_814
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.45.46:403][ 34]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_815
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.45.46:423][ 35]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_816
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.45.46:441][ 36]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_817
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.45.57:746][776]LogViewport: Scene viewport resized to 2038x936, mode Windowed.
+[2024.01.05-20.45.57:794][777]LogViewport: Scene viewport resized to 2038x901, mode Windowed.
+[2024.01.05-20.45.57:850][778]LogViewport: Scene viewport resized to 2038x809, mode Windowed.
+[2024.01.05-20.45.57:907][779]LogViewport: Scene viewport resized to 2038x753, mode Windowed.
+[2024.01.05-20.45.57:960][780]LogViewport: Scene viewport resized to 2038x736, mode Windowed.
+[2024.01.05-20.45.58:008][781]LogViewport: Scene viewport resized to 2038x719, mode Windowed.
+[2024.01.05-20.45.58:055][782]LogViewport: Scene viewport resized to 2038x717, mode Windowed.
+[2024.01.05-20.46.09:145][496]LogShaderCompilers: Display: ================================================
+[2024.01.05-20.46.09:145][496]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.05-20.46.09:145][496]LogShaderCompilers: Display: Total job queries 53, among them cache hits 3 (5.66%)
+[2024.01.05-20.46.09:145][496]LogShaderCompilers: Display: Tracking 50 distinct input hashes that result in 30 distinct outputs (60.00%)
+[2024.01.05-20.46.09:145][496]LogShaderCompilers: Display: RAM used: 1.15 MiB of 3.20 GiB budget. Usage: 0.04%
+[2024.01.05-20.46.09:145][496]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.05-20.46.09:145][496]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.01.05-20.46.09:145][496]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.01.05-20.46.09:145][496]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.01.05-20.46.09:145][496]LogShaderCompilers: Display: ================================================
+[2024.01.05-20.46.09:207][499]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.05-20.46.09:313][504]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.05-20.46.11:059][613]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.05-20.46.15:150][874]LogStaticMesh: Display: Building static mesh spear...
+[2024.01.05-20.46.15:155][874]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Eliana/LevelTesting/Meshes/weapons/spear.spear
+[2024.01.05-20.46.15:172][874]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Eliana/LevelTesting/Meshes/weapons/spear) ...
+[2024.01.05-20.46.15:182][874]LogStaticMesh: Built static mesh [0.03s] /Game/Eliana/LevelTesting/Meshes/weapons/spear.spear
+[2024.01.05-20.46.15:200][874]LogTexture: Display: Building textures: /Game/Eliana/LevelTesting/Meshes/textures/spear1/spear_lambert1_Normal.spear_lambert1_Normal (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.05-20.46.15:201][874]LogTexture: Display: Building textures: /Game/Eliana/LevelTesting/Meshes/textures/spear1/spear_lambert1_Emissive.spear_lambert1_Emissive (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.05-20.46.15:202][874]LogTexture: Display: Building textures: /Game/Eliana/LevelTesting/Meshes/textures/spear1/spear_lambert1_BaseColor.spear_lambert1_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.05-20.46.15:202][874]LogTexture: Display: Building textures: /Game/Eliana/LevelTesting/Meshes/textures/spear1/spear_lambert1_OcclusionRoughnessMetallic.spear_lambert1_OcclusionRoughnessMetallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.05-20.46.15:213][874]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.05-20.46.15:213][874]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.05-20.46.15:270][874]LogTexture: Display: Waiting for textures to be ready 0/4 (/Game/Eliana/LevelTesting/Meshes/textures/spear1/spear_lambert1_Normal) ...
+[2024.01.05-20.46.16:136][874]LogViewport: Scene viewport resized to 1258x643, mode Windowed.
+[2024.01.05-20.47.02:465][898]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Eliana/LevelTesting/Meshes/weapons/sword_necro_geo.sword_necro_geo
+[2024.01.05-20.47.02:476][898]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.05-20.47.02:476][898]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.05-20.47.03:082][898]LogViewport: Scene viewport resized to 1258x643, mode Windowed.
+[2024.01.05-20.47.10:911][405]LogWorld: UWorld::CleanupWorld for World_68, bSessionEnded=true, bCleanupResources=true
+[2024.01.05-20.47.10:911][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.05-20.47.24:538][ 38]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_818
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.47.25:034][ 86]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_819
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.47.25:072][ 87]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_820
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.47.25:084][ 88]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_821
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.47.25:096][ 89]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_822
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.47.25:108][ 90]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_823
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.47.25:120][ 91]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_824
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.47.25:133][ 92]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_825
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.47.25:144][ 93]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_826
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.47.25:157][ 94]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_827
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.47.25:172][ 95]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_828
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.47.27:527][132]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BossyEnemy/SpectralWarden/BP_Enemy_Base.BP_Enemy_Base
+[2024.01.05-20.47.27:527][132]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.05-20.47.27:527][132]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.05-20.47.27:670][132]LogSkeletalMesh: Display: OnRegister[/Game/BossyEnemy/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.05-20.47.27:670][132]LogSkeletalMesh: Display: OnRegister[/Game/BossyEnemy/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.05-20.47.27:938][141]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_829
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.47.57:427][198]LogWorld: UWorld::CleanupWorld for World_69, bSessionEnded=true, bCleanupResources=true
+[2024.01.05-20.47.57:427][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.05-20.47.57:483][198]LogViewport: Scene viewport resized to 1877x1254, mode Windowed.
+[2024.01.05-20.47.58:095][237]LogViewport: Scene viewport resized to 1258x643, mode Windowed.
+[2024.01.05-20.47.59:509][293]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BossyEnemy/SpectralWarden/BP_Enemy_Base.BP_Enemy_Base
+[2024.01.05-20.47.59:509][293]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.05-20.47.59:509][293]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.05-20.47.59:637][293]LogSkeletalMesh: Display: OnRegister[/Game/BossyEnemy/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.05-20.47.59:637][293]LogSkeletalMesh: Display: OnRegister[/Game/BossyEnemy/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.05-20.48.09:008][ 15]LogViewport: Scene viewport resized to 1652x973, mode Windowed.
+[2024.01.05-20.48.50:344][652]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_830
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.48.50:382][653]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_831
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.48.51:446][713]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_832
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.49.00:965][336]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_833
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.49.00:985][337]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.05-20.49.01:012][338]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.05-20.49.01:418][353]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.05-20.49.01:447][354]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.05-20.49.01:500][356]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_834
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.49.01:824][372]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_835
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.49.03:019][460]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_836
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.49.03:057][461]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_837
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.49.06:526][664]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_838
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.49.06:563][665]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_839
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.49.09:436][871]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_840
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.49.09:475][872]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_841
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.49.11:878][ 14]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_842
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.49.11:919][ 15]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_843
+	Function /Game/BossyEnemy/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0328
+[2024.01.05-20.49.24:338][881]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Weapons/BP_Spear.BP_Spear
+[2024.01.05-20.49.24:338][881]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.05-20.49.24:338][881]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.05-20.49.26:792][ 61]LogViewport: Scene viewport resized to 1236x723, mode Windowed.
+[2024.01.05-20.49.39:702][916]LogViewport: Scene viewport resized to 1405x942, mode Windowed.
+[2024.01.05-20.49.42:594][ 72]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Eliana/LevelTesting/Meshes/weapons/spear.spear
+[2024.01.05-20.49.42:594][ 72]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Eliana/LevelTesting/Meshes/weapons/spear.spear
+[2024.01.05-20.49.42:595][ 72]LogActorFactory: Actor Factory spawned StaticMesh /Game/Eliana/LevelTesting/Meshes/weapons/spear.spear as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_17
+[2024.01.05-20.49.54:923][878]LogEditorTransaction: Undo Modify Component(s)
+[2024.01.05-20.50.25:668][719]BlueprintLog: New page: Compile BP_Spear
+[2024.01.05-20.50.25:710][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.05-20.50.26:590][764]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.05-20.50.26:638][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/BP_Spear" FILE="C:/Users/zoykz/OneDrive/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Weapons/BP_Spear.uasset" SILENT=true
+[2024.01.05-20.50.26:642][764]LogSavePackage: Moving output files for package: /Game/Weapons/BP_Spear
+[2024.01.05-20.50.26:643][764]LogSavePackage: Moving 'C:/Users/zoykz/OneDrive/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BP_Spear4E417613488C9A0277CC459AF426EF21.tmp' to 'C:/Users/zoykz/OneDrive/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Weapons/BP_Spear.uasset'
+[2024.01.05-20.50.26:651][764]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 4.34 sec)
+[2024.01.05-20.50.26:653][764]AssetCheck: New page: Asset Save: BP_Spear
+[2024.01.05-20.50.26:653][764]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Weapons/BP_Spear.BP_Spear
+[2024.01.05-20.50.28:115][853]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.05-20.50.28:122][853]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.05-20.50.28:122][853]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.05-20.50.28:124][853]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 53 ms)
+[2024.01.05-20.50.28:124][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.05-20.50.28:124][853]PIE: New page: PIE session: ThirdPersonMap (Jan 5, 2024, 10:50:28 AM)
+[2024.01.05-20.50.28:161][853]LogPlayLevel: Display: Creating online subsystem for client :Context_107
+[2024.01.05-20.50.28:163][853]LogOnline: OSS: Created online subsystem instance for: :Context_107
+[2024.01.05-20.50.28:186][854]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.05-20.50.28:194][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008393s)
+[2024.01.05-20.50.28:194][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.008429s)
+[2024.01.05-20.50.28:212][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.01.05-20.50.28:215][854]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.05-20.50.28:215][854]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.05-20.50.28:216][854]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.05-20.50.28:216][854]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.05-20.50.28:216][854]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.05-20.50.28:216][854]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.05-20.50.28:216][854]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.05-20.50.28:218][854]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.05-20.50.28:218][854]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 185 ms)
+[2024.01.05-20.50.28:218][854]LogPlayLevel: PIE: World Init took: (0.003045s)
+[2024.01.05-20.50.28:218][854]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2024.01.05-20.50.28:218][854]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.05-20.50.28:218][854]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.05-20.50.28:218][854]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.05-20.50.28:218][854]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.05-20.50.28:218][854]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.05-20.50.28:218][854]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.05-20.50.28:218][854]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.05-20.50.28:218][854]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.05-20.50.28:219][854]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.05-20.50.28:219][854]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.05-20.50.28:219][854]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.05-20.50.28:221][854]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.05-20.50.28:264][854]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 Pro)
+[2024.01.05-20.50.28:264][854]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.05-20.50.28:264][854]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.05-20.50.28:264][854]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.05-20.50.28:265][854]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2024.01.05-20.50.28:265][854]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2024.01.05-20.50.28:266][854]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2024.01.05-20.50.28:266][854]LogInit: FAudioDevice initialized with ID 32.
+[2024.01.05-20.50.28:266][854]LogAudio: Display: Audio Device (ID: 32) registered with world 'ThirdPersonMap'.
+[2024.01.05-20.50.28:266][854]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2024.01.05-20.50.28:266][854]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 32
+[2024.01.05-20.50.28:268][854]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.05-20.50.28:272][854]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.05-15.50.28
+[2024.01.05-20.50.28:274][854]LogWorld: Bringing up level for play took: 0.005488
+[2024.01.05-20.50.28:278][854]PIE: Server logged in
+[2024.01.05-20.50.28:278][854]PIE: Play in editor total start time 0.156 seconds.
+[2024.01.05-20.50.38:253][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.05-20.50.38:253][560]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.05-20.50.38:253][560]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.05-20.50.38:254][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.05-20.50.38:254][560]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.05-20.50.38:263][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.05-20.50.38:268][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.05-20.50.38:285][560]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.05-20.50.38:285][560]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 32
+[2024.01.05-20.50.38:285][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2024.01.05-20.50.38:287][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2024.01.05-20.50.38:291][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.05-20.50.38:294][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.01.05-20.50.38:346][561]LogPlayLevel: Display: Destroying online subsystem :Context_107
+[2024.01.05-20.50.50:167][312]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.05-20.50.50:213][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/BP_Spear" FILE="C:/Users/zoykz/OneDrive/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Weapons/BP_Spear.uasset" SILENT=true
+[2024.01.05-20.50.50:217][312]LogSavePackage: Moving output files for package: /Game/Weapons/BP_Spear
+[2024.01.05-20.50.50:217][312]LogSavePackage: Moving 'C:/Users/zoykz/OneDrive/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BP_SpearA5291E6E413486CDDE7169AD68C1C2B9.tmp' to 'C:/Users/zoykz/OneDrive/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Weapons/BP_Spear.uasset'
+[2024.01.05-20.50.50:226][312]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 4.40 sec)
+[2024.01.05-20.50.50:228][312]AssetCheck: New page: Asset Save: BP_Spear
+[2024.01.05-20.50.50:228][312]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Weapons/BP_Spear.BP_Spear
+[2024.01.05-20.50.51:303][380]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.05-20.50.51:308][380]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.05-20.50.51:308][380]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.05-20.50.51:310][380]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 54 ms)
+[2024.01.05-20.50.51:310][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.05-20.50.51:310][380]PIE: New page: PIE session: ThirdPersonMap (Jan 5, 2024, 10:50:51 AM)
+[2024.01.05-20.50.51:331][380]LogPlayLevel: Display: Creating online subsystem for client :Context_108
+[2024.01.05-20.50.51:332][380]LogOnline: OSS: Created online subsystem instance for: :Context_108
+[2024.01.05-20.50.51:354][381]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.05-20.50.51:359][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004949s)
+[2024.01.05-20.50.51:359][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004982s)
+[2024.01.05-20.50.51:374][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.01.05-20.50.51:375][381]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.05-20.50.51:375][381]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.05-20.50.51:376][381]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.05-20.50.51:376][381]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.05-20.50.51:376][381]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.05-20.50.51:376][381]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.05-20.50.51:376][381]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.05-20.50.51:377][381]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.05-20.50.51:377][381]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 186 ms)
+[2024.01.05-20.50.51:377][381]LogPlayLevel: PIE: World Init took: (0.002012s)
+[2024.01.05-20.50.51:377][381]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2024.01.05-20.50.51:377][381]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.05-20.50.51:377][381]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.05-20.50.51:377][381]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.05-20.50.51:377][381]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.05-20.50.51:377][381]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.05-20.50.51:377][381]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.05-20.50.51:377][381]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.05-20.50.51:377][381]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.05-20.50.51:378][381]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.05-20.50.51:378][381]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.05-20.50.51:378][381]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.05-20.50.51:380][381]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.05-20.50.51:421][381]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 Pro)
+[2024.01.05-20.50.51:421][381]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.05-20.50.51:421][381]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.05-20.50.51:421][381]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.05-20.50.51:422][381]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2024.01.05-20.50.51:422][381]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2024.01.05-20.50.51:423][381]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2024.01.05-20.50.51:423][381]LogInit: FAudioDevice initialized with ID 33.
+[2024.01.05-20.50.51:423][381]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2024.01.05-20.50.51:423][381]LogAudio: Display: Audio Device (ID: 33) registered with world 'ThirdPersonMap'.
+[2024.01.05-20.50.51:423][381]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2024.01.05-20.50.51:425][381]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.05-20.50.51:430][381]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.05-15.50.51
+[2024.01.05-20.50.51:432][381]LogWorld: Bringing up level for play took: 0.005479
+[2024.01.05-20.50.51:435][381]PIE: Server logged in
+[2024.01.05-20.50.51:436][381]PIE: Play in editor total start time 0.127 seconds.
+[2024.01.05-20.50.59:601][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.05-20.50.59:602][990]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.05-20.50.59:602][990]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.05-20.50.59:603][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.05-20.50.59:603][990]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.05-20.50.59:608][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.05-20.50.59:613][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.05-20.50.59:627][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.05-20.50.59:628][990]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2024.01.05-20.50.59:628][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.01.05-20.50.59:630][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.01.05-20.50.59:638][990]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.01.05-20.50.59:673][991]LogPlayLevel: Display: Destroying online subsystem :Context_108
+[2024.01.05-20.51.03:228][227]BlueprintLog: New page: Compile BP_Spear
+[2024.01.05-20.51.03:257][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.01.05-20.51.04:218][286]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.05-20.51.04:258][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/BP_Spear" FILE="C:/Users/zoykz/OneDrive/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Weapons/BP_Spear.uasset" SILENT=true
+[2024.01.05-20.51.04:260][286]LogSavePackage: Moving output files for package: /Game/Weapons/BP_Spear
+[2024.01.05-20.51.04:261][286]LogSavePackage: Moving 'C:/Users/zoykz/OneDrive/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BP_Spear0919FD7F4E8FE3BF18B2E993152B6DAA.tmp' to 'C:/Users/zoykz/OneDrive/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Weapons/BP_Spear.uasset'
+[2024.01.05-20.51.04:271][286]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 4.45 sec)
+[2024.01.05-20.51.04:272][286]AssetCheck: New page: Asset Save: BP_Spear
+[2024.01.05-20.51.04:272][286]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Weapons/BP_Spear.BP_Spear
+[2024.01.05-20.51.08:849][392]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.05-20.51.08:909][392]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.01.05-20.51.08:926][392]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.01.05-20.51.08:942][392]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.01.05-20.51.08:951][392]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 4.56 sec)
