@@ -6,6 +6,7 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"D:/Program Files/Epic Game/UE_5.3/Engine/Content/BasicShapes/Cube.uasset",
 				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/Eliana/LevelTesting/Meshes/BP_ThirdPersonCharacter.uasset",
@@ -13,6 +14,8 @@
 				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/Health_Bar.uasset",
 				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/ThirdPerson/Blueprints/Player_HUD.uasset",
 =======
+=======
+>>>>>>> 9d8e6e7f361324ad8b0cda4344b15a3562ee0374
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Bosses/SpectralWarden/SpectralWarden_Skeleton.uasset",
@@ -924,6 +927,9 @@
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Mobs/BP_Enemy_Mob_Zombie.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/BossyEnemy/SpectralWarden/Animations/Warden_Walk_rig_001_Action.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/BossyEnemy/SpectralWarden/Spear.uasset",
+<<<<<<< HEAD
+>>>>>>> 9d8e6e7f361324ad8b0cda4344b15a3562ee0374
+=======
 >>>>>>> 9d8e6e7f361324ad8b0cda4344b15a3562ee0374
 				"C:/Users/Eliana/OneDrive/Documents/GitHub/Lords-of-The-Abyss/Content/Eliana/LevelTesting/TestLevel_01.umap",
 				"C:/Users/Eliana/OneDrive/Documents/GitHub/Lords-of-The-Abyss/Content/Eliana/LevelTesting/Blueprints/BP_ThirdPersonCharacter.uasset",
