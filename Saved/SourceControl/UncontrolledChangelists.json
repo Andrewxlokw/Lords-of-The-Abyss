@@ -5,20 +5,6 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"D:/Program Files/Epic Game/UE_5.3/Engine/Content/BasicShapes/Cube.uasset",
-				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/Eliana/LevelTesting/Meshes/BP_ThirdPersonCharacter.uasset",
-				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/ThirdPerson/Blueprints/Health_Bar.uasset",
-				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/Health_Bar.uasset",
-				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/ThirdPerson/Blueprints/Player_HUD.uasset",
-=======
-=======
->>>>>>> 9d8e6e7f361324ad8b0cda4344b15a3562ee0374
-=======
->>>>>>> 9d8e6e7f361324ad8b0cda4344b15a3562ee0374
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Bosses/SpectralWarden/SpectralWarden_Skeleton.uasset",
@@ -952,13 +938,6 @@
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Mobs/BP_Enemy_Mob_Zombie.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/BossyEnemy/SpectralWarden/Animations/Warden_Walk_rig_001_Action.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/BossyEnemy/SpectralWarden/Spear.uasset",
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 9d8e6e7f361324ad8b0cda4344b15a3562ee0374
-=======
->>>>>>> 9d8e6e7f361324ad8b0cda4344b15a3562ee0374
-=======
->>>>>>> 9d8e6e7f361324ad8b0cda4344b15a3562ee0374
 				"C:/Users/Eliana/OneDrive/Documents/GitHub/Lords-of-The-Abyss/Content/Eliana/LevelTesting/TestLevel_01.umap",
 				"C:/Users/Eliana/OneDrive/Documents/GitHub/Lords-of-The-Abyss/Content/Eliana/LevelTesting/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/Eliana/OneDrive/Documents/GitHub/Lords-of-The-Abyss/Content/Eliana/LevelTesting/Meshes/LanternTest.uasset",
@@ -1138,6 +1117,7 @@
 				"C:/Users/Eliana/OneDrive/Documents/GitHub/Lords-of-The-Abyss/Content/Eliana/LevelTesting/Blueprints/BP_ThirdPersonCharacter1.uasset",
 				"D:/Unreal_projects/Capstone/capstone_project/Content/ThirdPerson/Maps/Vanpire_Boss_Room.umap",
 				"D:/Unreal_projects/Capstone/capstone_project/Content/ThirdPerson/Blueprints/BP_TestEnemy.uasset",
+				"D:/Program Files/Epic Game/UE_5.3/Engine/Content/BasicShapes/Cube.uasset",
 				"D:/Unreal_projects/Capstone/capstone_project/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"D:/Unreal_projects/Capstone/capstone_project/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/4U/63Q7DI64EUGUYCYC145H2G.uasset",
 				"D:/Unreal_projects/Capstone/capstone_project/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/8B/H2CQ5HUAZXKYLTFEUNKODH.uasset",
