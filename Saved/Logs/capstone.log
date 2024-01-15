@@ -7175,3 +7175,1125 @@ Please see Output Log for details.
 [2024.01.15-18.20.40:527][397]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 3.37 sec)
 [2024.01.15-18.20.40:529][397]AssetCheck: New page: Asset Save: BP_Enemy_Base
 [2024.01.15-18.20.40:529][397]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/BP_Enemy_Base.BP_Enemy_Base
+[2024.01.15-18.21.22:307][889]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.15-18.21.22:317][889]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.15-18.21.22:317][889]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.15-18.21.22:318][889]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 88 ms)
+[2024.01.15-18.21.22:323][889]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.15-18.21.22:323][889]PIE: New page: PIE session: ThirdPersonMap (Jan. 15, 2024, 8:21:22 a.m.)
+[2024.01.15-18.21.22:323][889]LogPlayLevel: Display: Creating online subsystem for client :Context_94
+[2024.01.15-18.21.22:325][889]LogOnline: OSS: Created online subsystem instance for: :Context_94
+[2024.01.15-18.21.22:367][890]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.21.22:371][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004556s)
+[2024.01.15-18.21.22:371][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004593s)
+[2024.01.15-18.21.22:389][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.15-18.21.22:396][890]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.21.22:396][890]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.21.22:396][890]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.15-18.21.22:397][890]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.15-18.21.22:397][890]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.15-18.21.22:397][890]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.15-18.21.22:397][890]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.15-18.21.22:398][890]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.15-18.21.22:398][890]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 113 ms)
+[2024.01.15-18.21.22:398][890]LogPlayLevel: PIE: World Init took: (0.002077s)
+[2024.01.15-18.21.22:398][890]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2024.01.15-18.21.22:398][890]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.15-18.21.22:398][890]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.15-18.21.22:398][890]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.15-18.21.22:398][890]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.15-18.21.22:398][890]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.15-18.21.22:398][890]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.15-18.21.22:398][890]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.15-18.21.22:398][890]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.15-18.21.22:399][890]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.15-18.21.22:399][890]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.15-18.21.22:399][890]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.15-18.21.22:400][890]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.15-18.21.22:420][890]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 Pro)
+[2024.01.15-18.21.22:421][890]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.15-18.21.22:421][890]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.15-18.21.22:421][890]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.15-18.21.22:421][890]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=54
+[2024.01.15-18.21.22:421][890]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=54
+[2024.01.15-18.21.22:423][890]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=54
+[2024.01.15-18.21.22:423][890]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=54
+[2024.01.15-18.21.22:423][890]LogInit: FAudioDevice initialized with ID 54.
+[2024.01.15-18.21.22:423][890]LogAudio: Display: Audio Device (ID: 54) registered with world 'ThirdPersonMap'.
+[2024.01.15-18.21.22:423][890]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 54
+[2024.01.15-18.21.22:426][890]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.15-18.21.22:430][890]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.15-13.21.22
+[2024.01.15-18.21.22:432][890]LogWorld: Bringing up level for play took: 0.005526
+[2024.01.15-18.21.22:436][890]PIE: Server logged in
+[2024.01.15-18.21.22:436][890]PIE: Play in editor total start time 0.12 seconds.
+[2024.01.15-18.21.23:234][928]LogBlueprintUserMessages: [BP_Enemy_Base_C_UAID_00D86171851B41CF01_1707650191] true
+[2024.01.15-18.21.49:544][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.21.49:544][348]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.21.49:544][348]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-18.21.49:544][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.21.49:545][348]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.15-18.21.49:582][348]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.15-18.21.49:588][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.21.49:606][348]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.15-18.21.49:607][348]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 54
+[2024.01.15-18.21.49:607][348]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2024.01.15-18.21.49:608][348]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2024.01.15-18.21.49:612][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.21.49:617][348]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2024.01.15-18.21.49:873][349]LogPlayLevel: Display: Destroying online subsystem :Context_94
+[2024.01.15-18.22.11:853][266]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-18.22.11:900][266]LogSavePackage: Moving output files for package: /Game/Characters/Bosses/SpectralWarden/BS_SpectralWarden_Walk
+[2024.01.15-18.22.11:901][266]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BS_SpectralWarden_Walk66E6361B432F592563F684B623259A88.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Bosses/SpectralWarden/BS_SpectralWarden_Walk.uasset'
+[2024.01.15-18.22.11:909][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 3.43 sec)
+[2024.01.15-18.22.11:910][266]AssetCheck: New page: Asset Save: BS_SpectralWarden_Walk
+[2024.01.15-18.22.11:910][266]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/Characters/Bosses/SpectralWarden/BS_SpectralWarden_Walk.BS_SpectralWarden_Walk
+[2024.01.15-18.22.13:130][316]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.15-18.22.13:143][316]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.15-18.22.13:143][316]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.15-18.22.13:144][316]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 90 ms)
+[2024.01.15-18.22.13:148][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.15-18.22.13:148][316]PIE: New page: PIE session: ThirdPersonMap (Jan. 15, 2024, 8:22:13 a.m.)
+[2024.01.15-18.22.13:148][316]LogPlayLevel: Display: Creating online subsystem for client :Context_95
+[2024.01.15-18.22.13:150][316]LogOnline: OSS: Created online subsystem instance for: :Context_95
+[2024.01.15-18.22.13:189][317]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.22.13:193][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004713s)
+[2024.01.15-18.22.13:193][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004744s)
+[2024.01.15-18.22.13:210][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.01.15-18.22.13:215][317]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.22.13:215][317]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.22.13:215][317]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.15-18.22.13:215][317]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.15-18.22.13:216][317]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.15-18.22.13:216][317]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.15-18.22.13:216][317]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.15-18.22.13:217][317]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.15-18.22.13:217][317]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 114 ms)
+[2024.01.15-18.22.13:217][317]LogPlayLevel: PIE: World Init took: (0.002017s)
+[2024.01.15-18.22.13:217][317]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2024.01.15-18.22.13:217][317]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.15-18.22.13:217][317]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.15-18.22.13:217][317]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.15-18.22.13:217][317]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.15-18.22.13:217][317]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.15-18.22.13:217][317]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.15-18.22.13:217][317]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.15-18.22.13:217][317]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.15-18.22.13:217][317]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.15-18.22.13:217][317]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.15-18.22.13:217][317]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.15-18.22.13:218][317]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.15-18.22.13:240][317]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 Pro)
+[2024.01.15-18.22.13:240][317]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.15-18.22.13:240][317]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.15-18.22.13:240][317]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.15-18.22.13:241][317]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=55
+[2024.01.15-18.22.13:241][317]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=55
+[2024.01.15-18.22.13:242][317]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=55
+[2024.01.15-18.22.13:242][317]LogInit: FAudioDevice initialized with ID 55.
+[2024.01.15-18.22.13:242][317]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=55
+[2024.01.15-18.22.13:242][317]LogAudio: Display: Audio Device (ID: 55) registered with world 'ThirdPersonMap'.
+[2024.01.15-18.22.13:242][317]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 55
+[2024.01.15-18.22.13:244][317]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.15-18.22.13:248][317]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.15-13.22.13
+[2024.01.15-18.22.13:250][317]LogWorld: Bringing up level for play took: 0.005388
+[2024.01.15-18.22.13:253][317]PIE: Server logged in
+[2024.01.15-18.22.13:254][317]PIE: Play in editor total start time 0.112 seconds.
+[2024.01.15-18.22.13:755][338]LogBlueprintUserMessages: [BP_Enemy_Base_C_UAID_00D86171851B41CF01_1707650191] true
+[2024.01.15-18.22.28:955][ 99]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.22.28:955][ 99]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.22.28:955][ 99]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-18.22.28:956][ 99]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.22.28:956][ 99]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.15-18.22.28:987][ 99]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.15-18.22.28:991][ 99]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.22.29:008][ 99]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.22.29:008][ 99]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 55
+[2024.01.15-18.22.29:008][ 99]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2024.01.15-18.22.29:009][ 99]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2024.01.15-18.22.29:015][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.15-18.22.29:154][100]LogPlayLevel: Display: Destroying online subsystem :Context_95
+[2024.01.15-18.22.29:840][127]Cmd: TRANSACTION UNDO
+[2024.01.15-18.22.29:840][127]LogEditorTransaction: Undo Removing Blendspace Sample
+[2024.01.15-18.22.30:340][127]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.15-18.22.30:353][127]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.15-18.22.30:365][127]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.15-18.22.30:699][132]Cmd: TRANSACTION UNDO
+[2024.01.15-18.22.30:699][132]LogEditorTransaction: Undo Removing Blendspace Sample
+[2024.01.15-18.22.31:176][132]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.15-18.22.31:181][132]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.15-18.22.31:185][132]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.15-18.22.31:566][140]Cmd: TRANSACTION UNDO
+[2024.01.15-18.22.31:566][140]LogEditorTransaction: Undo Removing Blendspace Sample
+[2024.01.15-18.22.32:050][140]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.15-18.22.32:055][140]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.15-18.22.32:060][140]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.15-18.22.32:506][151]Cmd: TRANSACTION UNDO
+[2024.01.15-18.22.32:506][151]LogEditorTransaction: Undo Removing Blendspace Sample
+[2024.01.15-18.22.33:030][151]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.15-18.22.33:035][151]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.15-18.22.33:039][151]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.15-18.22.40:318][452]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-18.22.40:362][452]LogSavePackage: Moving output files for package: /Game/Characters/Bosses/SpectralWarden/BS_SpectralWarden_Walk
+[2024.01.15-18.22.40:363][452]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BS_SpectralWarden_Walk508FA33A4F6432031DA025BAFC803957.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Bosses/SpectralWarden/BS_SpectralWarden_Walk.uasset'
+[2024.01.15-18.22.40:372][452]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 3.48 sec)
+[2024.01.15-18.22.40:373][452]AssetCheck: New page: Asset Save: BS_SpectralWarden_Walk
+[2024.01.15-18.22.40:373][452]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/Characters/Bosses/SpectralWarden/BS_SpectralWarden_Walk.BS_SpectralWarden_Walk
+[2024.01.15-18.22.40:893][472]LogViewport: Scene viewport resized to 517x166, mode Windowed.
+[2024.01.15-18.22.43:304][551]LogSlate: Window 'BS_SpectralWarden_Walk' being destroyed
+[2024.01.15-18.22.43:310][551]LogSlate: Window 'BS_SpectralWarden_Walk' being destroyed
+[2024.01.15-18.22.43:340][551]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-18.22.43:341][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.22.43:386][551]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-18.22.43:386][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.23.22:216][903]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Colors.Foreground'.'
+[2024.01.15-18.23.46:470][379]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Ai/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed
+[2024.01.15-18.23.46:470][379]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.23.46:470][379]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.24.07:910][851]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Ai/BPI_EnemyAI.BPI_EnemyAI
+[2024.01.15-18.24.07:910][851]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.24.07:910][851]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.24.15:159][391]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Ai/BP_PatrolRoute.BP_PatrolRoute
+[2024.01.15-18.24.15:159][391]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.24.15:159][391]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.24.20:524][718]LogAssetEditorSubsystem: Opening Asset editor for BlackboardData /Game/Characters/Ai/BB_Enemy_Base.BB_Enemy_Base
+[2024.01.15-18.24.22:257][839]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Ai/AIC_Enemy_Base.AIC_Enemy_Base
+[2024.01.15-18.24.22:257][839]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.24.22:257][839]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.24.40:265][848]LogViewport: Scene viewport resized to 1074x615, mode Windowed.
+[2024.01.15-18.26.52:550][728]BlueprintLog: New page: Compile BP_Enemy_Base
+[2024.01.15-18.26.52:605][728]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.26.52:605][728]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.26.52:665][728]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.26.52:665][728]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.26.52:667][728]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.26.52:667][728]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.26.52:669][728]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.26.52:669][728]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.26.52:670][728]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.26.52:670][728]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.26.52:671][728]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.26.52:671][728]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.26.52:672][728]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.26.52:672][728]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.26.52:706][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.15-18.26.52:723][728]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.26.52:723][728]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.26.53:299][746]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-18.26.53:360][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/BP_Enemy_Base" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset" SILENT=true
+[2024.01.15-18.26.53:396][746]LogSavePackage: Moving output files for package: /Game/Characters/BP_Enemy_Base
+[2024.01.15-18.26.53:396][746]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BP_Enemy_Base8227D84D4EB8ADF0B692DFA8031B2F27.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset'
+[2024.01.15-18.26.53:405][746]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 3.59 sec)
+[2024.01.15-18.26.53:407][746]AssetCheck: New page: Asset Save: BP_Enemy_Base
+[2024.01.15-18.26.53:407][746]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/BP_Enemy_Base.BP_Enemy_Base
+[2024.01.15-18.26.54:339][810]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.15-18.26.54:346][810]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.15-18.26.54:346][810]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.15-18.26.54:348][810]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 91 ms)
+[2024.01.15-18.26.54:357][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.15-18.26.54:357][810]PIE: New page: PIE session: ThirdPersonMap (Jan. 15, 2024, 8:26:54 a.m.)
+[2024.01.15-18.26.54:357][810]LogPlayLevel: Display: Creating online subsystem for client :Context_100
+[2024.01.15-18.26.54:359][810]LogOnline: OSS: Created online subsystem instance for: :Context_100
+[2024.01.15-18.26.54:392][811]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.26.54:396][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004412s)
+[2024.01.15-18.26.54:396][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004448s)
+[2024.01.15-18.26.54:415][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.01.15-18.26.54:424][811]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.26.54:425][811]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.26.54:425][811]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.15-18.26.54:425][811]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.15-18.26.54:425][811]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.15-18.26.54:425][811]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.15-18.26.54:425][811]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.15-18.26.54:426][811]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.15-18.26.54:426][811]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 115 ms)
+[2024.01.15-18.26.54:426][811]LogPlayLevel: PIE: World Init took: (0.002055s)
+[2024.01.15-18.26.54:426][811]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2024.01.15-18.26.54:427][811]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.15-18.26.54:427][811]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.15-18.26.54:427][811]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.15-18.26.54:427][811]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.15-18.26.54:427][811]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.15-18.26.54:427][811]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.15-18.26.54:427][811]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.15-18.26.54:427][811]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.15-18.26.54:427][811]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.15-18.26.54:427][811]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.15-18.26.54:427][811]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.15-18.26.54:429][811]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.15-18.26.54:450][811]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 Pro)
+[2024.01.15-18.26.54:450][811]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.15-18.26.54:450][811]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.15-18.26.54:450][811]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.15-18.26.54:451][811]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=56
+[2024.01.15-18.26.54:451][811]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=56
+[2024.01.15-18.26.54:452][811]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=56
+[2024.01.15-18.26.54:452][811]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=56
+[2024.01.15-18.26.54:452][811]LogInit: FAudioDevice initialized with ID 56.
+[2024.01.15-18.26.54:452][811]LogAudio: Display: Audio Device (ID: 56) registered with world 'ThirdPersonMap'.
+[2024.01.15-18.26.54:452][811]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 56
+[2024.01.15-18.26.54:455][811]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.15-18.26.54:458][811]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.15-13.26.54
+[2024.01.15-18.26.54:461][811]LogWorld: Bringing up level for play took: 0.005945
+[2024.01.15-18.26.54:465][811]PIE: Server logged in
+[2024.01.15-18.26.54:466][811]PIE: Play in editor total start time 0.119 seconds.
+[2024.01.15-18.26.55:308][873]LogBlueprintUserMessages: [BP_Enemy_Base_C_UAID_00D86171851B41CF01_1707650191] true
+[2024.01.15-18.27.21:618][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.27.21:618][904]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.27.21:618][904]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-18.27.21:618][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.27.21:618][904]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.15-18.27.21:625][904]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.15-18.27.21:630][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.27.21:646][904]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.15-18.27.21:646][904]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 56
+[2024.01.15-18.27.21:647][904]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2024.01.15-18.27.21:648][904]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2024.01.15-18.27.21:651][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.27.21:654][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.01.15-18.27.21:804][905]LogPlayLevel: Display: Destroying online subsystem :Context_100
+[2024.01.15-18.27.26:531][237]BlueprintLog: New page: Compile BP_Enemy_Base
+[2024.01.15-18.27.26:581][237]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.27.26:581][237]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.27.26:649][237]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.27.26:649][237]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.27.26:649][237]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.27.26:649][237]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.27.26:653][237]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.27.26:653][237]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.27.26:654][237]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.27.26:654][237]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.27.26:655][237]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.27.26:655][237]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.27.26:656][237]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.27.26:656][237]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.27.26:687][237]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.01.15-18.27.26:703][237]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.27.26:703][237]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.27.31:041][533]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.15-18.27.31:048][533]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.15-18.27.31:048][533]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.15-18.27.31:050][533]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 93 ms)
+[2024.01.15-18.27.31:058][533]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.15-18.27.31:058][533]PIE: New page: PIE session: ThirdPersonMap (Jan. 15, 2024, 8:27:31 a.m.)
+[2024.01.15-18.27.31:080][533]LogPlayLevel: Display: Creating online subsystem for client :Context_101
+[2024.01.15-18.27.31:082][533]LogOnline: OSS: Created online subsystem instance for: :Context_101
+[2024.01.15-18.27.31:117][534]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.27.31:122][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004726s)
+[2024.01.15-18.27.31:122][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004760s)
+[2024.01.15-18.27.31:141][534]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.15-18.27.31:146][534]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.27.31:146][534]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.27.31:147][534]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.15-18.27.31:147][534]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.15-18.27.31:147][534]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.15-18.27.31:147][534]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.15-18.27.31:147][534]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.15-18.27.31:148][534]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.15-18.27.31:148][534]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 116 ms)
+[2024.01.15-18.27.31:148][534]LogPlayLevel: PIE: World Init took: (0.002080s)
+[2024.01.15-18.27.31:148][534]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2024.01.15-18.27.31:148][534]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.15-18.27.31:148][534]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.15-18.27.31:148][534]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.15-18.27.31:148][534]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.15-18.27.31:148][534]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.15-18.27.31:148][534]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.15-18.27.31:148][534]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.15-18.27.31:148][534]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.15-18.27.31:149][534]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.15-18.27.31:149][534]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.15-18.27.31:149][534]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.15-18.27.31:150][534]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.15-18.27.31:170][534]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 Pro)
+[2024.01.15-18.27.31:170][534]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.15-18.27.31:170][534]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.15-18.27.31:170][534]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.15-18.27.31:171][534]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=57
+[2024.01.15-18.27.31:171][534]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=57
+[2024.01.15-18.27.31:173][534]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=57
+[2024.01.15-18.27.31:173][534]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=57
+[2024.01.15-18.27.31:173][534]LogInit: FAudioDevice initialized with ID 57.
+[2024.01.15-18.27.31:173][534]LogAudio: Display: Audio Device (ID: 57) registered with world 'ThirdPersonMap'.
+[2024.01.15-18.27.31:173][534]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 57
+[2024.01.15-18.27.31:175][534]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.15-18.27.31:179][534]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.15-13.27.31
+[2024.01.15-18.27.31:181][534]LogWorld: Bringing up level for play took: 0.005663
+[2024.01.15-18.27.31:185][534]PIE: Server logged in
+[2024.01.15-18.27.31:186][534]PIE: Play in editor total start time 0.137 seconds.
+[2024.01.15-18.27.51:619][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.27.51:619][ 27]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.27.51:620][ 27]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-18.27.51:621][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.27.51:621][ 27]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.15-18.27.51:671][ 27]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.15-18.27.51:680][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.27.51:700][ 27]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.15-18.27.51:701][ 27]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 57
+[2024.01.15-18.27.51:701][ 27]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2024.01.15-18.27.51:703][ 27]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2024.01.15-18.27.51:710][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.27.51:717][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2024.01.15-18.27.52:076][ 28]LogPlayLevel: Display: Destroying online subsystem :Context_101
+[2024.01.15-18.27.56:513][310]BlueprintLog: New page: Compile BP_Enemy_Base
+[2024.01.15-18.27.56:562][310]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.27.56:562][310]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.27.56:621][310]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.27.56:621][310]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.27.56:622][310]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.27.56:622][310]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.27.56:624][310]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.27.56:624][310]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.27.56:625][310]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.27.56:625][310]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.27.56:627][310]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.27.56:627][310]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.27.56:628][310]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.27.56:628][310]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.27.56:657][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.15-18.27.56:671][310]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.27.56:671][310]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.27.57:326][331]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-18.27.57:389][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/BP_Enemy_Base" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset" SILENT=true
+[2024.01.15-18.27.57:427][331]LogSavePackage: Moving output files for package: /Game/Characters/BP_Enemy_Base
+[2024.01.15-18.27.57:428][331]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BP_Enemy_BaseD4D86B56429FEBAD272309964C7F6853.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset'
+[2024.01.15-18.27.57:436][331]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 3.70 sec)
+[2024.01.15-18.27.57:438][331]AssetCheck: New page: Asset Save: BP_Enemy_Base
+[2024.01.15-18.27.57:438][331]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/BP_Enemy_Base.BP_Enemy_Base
+[2024.01.15-18.27.58:720][418]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.15-18.27.58:731][418]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.15-18.27.58:731][418]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.15-18.27.58:732][418]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 94 ms)
+[2024.01.15-18.27.58:740][418]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.15-18.27.58:740][418]PIE: New page: PIE session: ThirdPersonMap (Jan. 15, 2024, 8:27:58 a.m.)
+[2024.01.15-18.27.58:740][418]LogPlayLevel: Display: Creating online subsystem for client :Context_102
+[2024.01.15-18.27.58:743][418]LogOnline: OSS: Created online subsystem instance for: :Context_102
+[2024.01.15-18.27.58:800][419]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.27.58:808][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007312s)
+[2024.01.15-18.27.58:808][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007360s)
+[2024.01.15-18.27.58:829][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.01.15-18.27.58:837][419]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.27.58:837][419]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.27.58:837][419]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.15-18.27.58:838][419]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.15-18.27.58:838][419]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.15-18.27.58:838][419]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.15-18.27.58:838][419]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.15-18.27.58:840][419]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.15-18.27.58:840][419]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 118 ms)
+[2024.01.15-18.27.58:840][419]LogPlayLevel: PIE: World Init took: (0.003204s)
+[2024.01.15-18.27.58:840][419]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2024.01.15-18.27.58:840][419]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.15-18.27.58:840][419]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.15-18.27.58:840][419]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.15-18.27.58:840][419]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.15-18.27.58:840][419]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.15-18.27.58:840][419]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.15-18.27.58:840][419]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.15-18.27.58:840][419]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.15-18.27.58:841][419]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.15-18.27.58:841][419]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.15-18.27.58:841][419]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.15-18.27.58:843][419]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.15-18.27.58:864][419]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 Pro)
+[2024.01.15-18.27.58:864][419]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.15-18.27.58:864][419]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.15-18.27.58:864][419]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.15-18.27.58:865][419]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=58
+[2024.01.15-18.27.58:865][419]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=58
+[2024.01.15-18.27.58:867][419]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=58
+[2024.01.15-18.27.58:867][419]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=58
+[2024.01.15-18.27.58:867][419]LogInit: FAudioDevice initialized with ID 58.
+[2024.01.15-18.27.58:867][419]LogAudio: Display: Audio Device (ID: 58) registered with world 'ThirdPersonMap'.
+[2024.01.15-18.27.58:867][419]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 58
+[2024.01.15-18.27.58:869][419]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.15-18.27.58:873][419]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.15-13.27.58
+[2024.01.15-18.27.58:876][419]LogWorld: Bringing up level for play took: 0.006989
+[2024.01.15-18.27.58:881][419]PIE: Server logged in
+[2024.01.15-18.27.58:882][419]PIE: Play in editor total start time 0.152 seconds.
+[2024.01.15-18.27.59:482][455]LogBlueprintUserMessages: [BP_Enemy_Base_C_UAID_00D86171851B41CF01_1707650191] true
+[2024.01.15-18.28.09:184][185]Cmd: ToggleDebugCamera
+[2024.01.15-18.28.15:447][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.28.15:447][621]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.28.15:447][621]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-18.28.15:447][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.28.15:448][621]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.15-18.28.15:481][621]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.15-18.28.15:486][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.28.15:502][621]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.15-18.28.15:502][621]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 58
+[2024.01.15-18.28.15:502][621]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2024.01.15-18.28.15:504][621]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2024.01.15-18.28.15:507][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.28.15:510][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.01.15-18.28.15:677][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.28.15:757][622]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2024.01.15-18.28.15:761][622]LogSlate: Took 0.003459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.15-18.28.15:795][622]LogSlate: Took 0.003889 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.01.15-18.28.15:798][622]LogSlate: Took 0.003130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.01.15-18.28.15:804][622]LogSlate: Took 0.003184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.01.15-18.28.15:813][622]LogSlate: Took 0.003540 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.01.15-18.28.24:629][229]BlueprintLog: New page: Compile BP_Enemy_Base
+[2024.01.15-18.28.24:679][229]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.28.24:679][229]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.28.24:737][229]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.28.24:737][229]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.28.24:738][229]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.28.24:738][229]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.28.24:741][229]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.28.24:741][229]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.28.24:742][229]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.28.24:742][229]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.28.24:743][229]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.28.24:743][229]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.28.24:744][229]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.28.24:744][229]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.28.24:771][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.01.15-18.28.24:788][229]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.28.24:788][229]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.28.25:267][244]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-18.28.25:330][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/BP_Enemy_Base" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset" SILENT=true
+[2024.01.15-18.28.25:365][244]LogSavePackage: Moving output files for package: /Game/Characters/BP_Enemy_Base
+[2024.01.15-18.28.25:366][244]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BP_Enemy_Base5E49741544C28AE3BD862DB26756D631.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset'
+[2024.01.15-18.28.25:377][244]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 3.81 sec)
+[2024.01.15-18.28.25:379][244]AssetCheck: New page: Asset Save: BP_Enemy_Base
+[2024.01.15-18.28.25:379][244]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/BP_Enemy_Base.BP_Enemy_Base
+[2024.01.15-18.28.26:473][321]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.15-18.28.26:482][321]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.15-18.28.26:482][321]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.15-18.28.26:483][321]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 96 ms)
+[2024.01.15-18.28.26:490][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.15-18.28.26:490][321]PIE: New page: PIE session: ThirdPersonMap (Jan. 15, 2024, 8:28:26 a.m.)
+[2024.01.15-18.28.26:490][321]LogPlayLevel: Display: Creating online subsystem for client :Context_103
+[2024.01.15-18.28.26:492][321]LogOnline: OSS: Created online subsystem instance for: :Context_103
+[2024.01.15-18.28.26:526][322]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.28.26:531][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005089s)
+[2024.01.15-18.28.26:531][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005123s)
+[2024.01.15-18.28.26:548][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.01.15-18.28.26:556][322]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.28.26:556][322]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.28.26:557][322]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.15-18.28.26:557][322]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.15-18.28.26:557][322]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.15-18.28.26:557][322]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.15-18.28.26:557][322]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.15-18.28.26:558][322]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.15-18.28.26:558][322]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 119 ms)
+[2024.01.15-18.28.26:558][322]LogPlayLevel: PIE: World Init took: (0.002103s)
+[2024.01.15-18.28.26:558][322]LogAudio: Display: Creating Audio Device:                 Id: 59, Scope: Unique, Realtime: True
+[2024.01.15-18.28.26:558][322]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.15-18.28.26:558][322]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.15-18.28.26:558][322]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.15-18.28.26:558][322]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.15-18.28.26:558][322]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.15-18.28.26:558][322]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.15-18.28.26:558][322]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.15-18.28.26:558][322]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.15-18.28.26:559][322]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.15-18.28.26:559][322]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.15-18.28.26:559][322]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.15-18.28.26:560][322]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.15-18.28.26:580][322]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 Pro)
+[2024.01.15-18.28.26:580][322]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.15-18.28.26:580][322]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.15-18.28.26:580][322]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.15-18.28.26:581][322]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=59
+[2024.01.15-18.28.26:581][322]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=59
+[2024.01.15-18.28.26:582][322]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=59
+[2024.01.15-18.28.26:582][322]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=59
+[2024.01.15-18.28.26:582][322]LogInit: FAudioDevice initialized with ID 59.
+[2024.01.15-18.28.26:582][322]LogAudio: Display: Audio Device (ID: 59) registered with world 'ThirdPersonMap'.
+[2024.01.15-18.28.26:582][322]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 59
+[2024.01.15-18.28.26:585][322]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.15-18.28.26:588][322]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.15-13.28.26
+[2024.01.15-18.28.26:591][322]LogWorld: Bringing up level for play took: 0.005675
+[2024.01.15-18.28.26:595][322]PIE: Server logged in
+[2024.01.15-18.28.26:596][322]PIE: Play in editor total start time 0.114 seconds.
+[2024.01.15-18.28.31:403][699]LogBlueprintUserMessages: [BP_Enemy_Base_C_UAID_00D86171851B41CF01_1707650191] true
+[2024.01.15-18.28.32:222][763]Cmd: ToggleDebugCamera
+[2024.01.15-18.28.37:707][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.28.37:707][173]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.28.37:707][173]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-18.28.37:707][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.28.37:708][173]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.15-18.28.37:715][173]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.15-18.28.37:719][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.28.37:734][173]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.15-18.28.37:735][173]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 59
+[2024.01.15-18.28.37:735][173]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59
+[2024.01.15-18.28.37:736][173]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59
+[2024.01.15-18.28.37:739][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.28.37:742][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.15-18.28.37:814][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.28.37:893][174]LogPlayLevel: Display: Destroying online subsystem :Context_103
+[2024.01.15-18.28.37:894][174]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.15-18.28.37:924][174]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.01.15-18.28.37:925][174]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.01.15-18.28.37:927][174]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.01.15-18.28.42:199][473]BlueprintLog: New page: Compile BP_Enemy_Base
+[2024.01.15-18.28.42:248][473]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.28.42:248][473]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.28.42:306][473]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.28.42:306][473]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.28.42:307][473]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.28.42:307][473]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.28.42:311][473]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.28.42:311][473]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.28.42:313][473]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.28.42:313][473]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.28.42:314][473]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.28.42:314][473]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.28.42:315][473]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.28.42:315][473]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.28.42:344][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.01.15-18.28.42:360][473]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.28.42:360][473]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.28.42:676][479]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-18.28.42:736][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/BP_Enemy_Base" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset" SILENT=true
+[2024.01.15-18.28.42:773][479]LogSavePackage: Moving output files for package: /Game/Characters/BP_Enemy_Base
+[2024.01.15-18.28.42:774][479]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BP_Enemy_Base437D801E4B5D14FB329BC6974064CD23.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset'
+[2024.01.15-18.28.42:785][479]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 3.92 sec)
+[2024.01.15-18.28.42:787][479]AssetCheck: New page: Asset Save: BP_Enemy_Base
+[2024.01.15-18.28.42:787][479]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/BP_Enemy_Base.BP_Enemy_Base
+[2024.01.15-18.28.44:909][611]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.15-18.28.44:916][611]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.15-18.28.44:916][611]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.15-18.28.44:917][611]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 97 ms)
+[2024.01.15-18.28.44:924][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.15-18.28.44:924][611]PIE: New page: PIE session: ThirdPersonMap (Jan. 15, 2024, 8:28:44 a.m.)
+[2024.01.15-18.28.44:924][611]LogPlayLevel: Display: Creating online subsystem for client :Context_104
+[2024.01.15-18.28.44:926][611]LogOnline: OSS: Created online subsystem instance for: :Context_104
+[2024.01.15-18.28.44:930][611]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.01.15-18.28.44:964][612]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.28.44:969][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005109s)
+[2024.01.15-18.28.44:969][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005147s)
+[2024.01.15-18.28.44:986][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.15-18.28.44:992][612]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.28.44:992][612]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.28.44:993][612]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.15-18.28.44:993][612]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.15-18.28.44:993][612]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.15-18.28.44:993][612]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.15-18.28.44:993][612]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.15-18.28.44:994][612]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.15-18.28.44:994][612]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 120 ms)
+[2024.01.15-18.28.44:994][612]LogPlayLevel: PIE: World Init took: (0.002009s)
+[2024.01.15-18.28.44:994][612]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2024.01.15-18.28.44:994][612]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.15-18.28.44:994][612]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.15-18.28.44:994][612]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.15-18.28.44:994][612]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.15-18.28.44:994][612]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.15-18.28.44:994][612]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.15-18.28.44:994][612]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.15-18.28.44:994][612]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.15-18.28.44:995][612]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.15-18.28.44:995][612]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.15-18.28.44:995][612]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.15-18.28.44:996][612]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.15-18.28.45:016][612]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 Pro)
+[2024.01.15-18.28.45:016][612]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.15-18.28.45:016][612]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.15-18.28.45:016][612]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.15-18.28.45:017][612]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=60
+[2024.01.15-18.28.45:017][612]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=60
+[2024.01.15-18.28.45:018][612]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=60
+[2024.01.15-18.28.45:018][612]LogInit: FAudioDevice initialized with ID 60.
+[2024.01.15-18.28.45:018][612]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=60
+[2024.01.15-18.28.45:018][612]LogAudio: Display: Audio Device (ID: 60) registered with world 'ThirdPersonMap'.
+[2024.01.15-18.28.45:018][612]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 60
+[2024.01.15-18.28.45:021][612]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.15-18.28.45:025][612]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.15-13.28.45
+[2024.01.15-18.28.45:027][612]LogWorld: Bringing up level for play took: 0.005691
+[2024.01.15-18.28.45:031][612]PIE: Server logged in
+[2024.01.15-18.28.45:031][612]PIE: Play in editor total start time 0.115 seconds.
+[2024.01.15-18.28.48:429][872]LogBlueprintUserMessages: [BP_Enemy_Base_C_UAID_00D86171851B41CF01_1707650191] true
+[2024.01.15-18.28.48:779][900]Cmd: ToggleDebugCamera
+[2024.01.15-18.28.56:887][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.28.56:887][494]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.28.56:887][494]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-18.28.56:887][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.28.56:888][494]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.15-18.28.56:894][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.15-18.28.56:899][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.28.56:915][494]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.15-18.28.56:916][494]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 60
+[2024.01.15-18.28.56:916][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2024.01.15-18.28.56:917][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2024.01.15-18.28.56:921][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.28.56:924][494]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.01.15-18.28.57:034][495]LogPlayLevel: Display: Destroying online subsystem :Context_104
+[2024.01.15-18.29.01:059][784]BlueprintLog: New page: Compile BP_Enemy_Base
+[2024.01.15-18.29.01:108][784]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.29.01:108][784]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.29.01:110][784]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.29.01:110][784]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.29.01:111][784]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.29.01:112][784]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.29.01:114][784]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.29.01:114][784]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.29.01:115][784]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.29.01:115][784]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.29.01:116][784]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.29.01:116][784]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.29.01:117][784]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.29.01:117][784]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.29.01:146][784]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.15-18.29.01:161][784]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.29.01:161][784]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.29.01:591][806]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-18.29.01:655][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/BP_Enemy_Base" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset" SILENT=true
+[2024.01.15-18.29.01:691][806]LogSavePackage: Moving output files for package: /Game/Characters/BP_Enemy_Base
+[2024.01.15-18.29.01:692][806]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BP_Enemy_BaseFC60DEE943DF2C33B1F638B2DC3954F3.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset'
+[2024.01.15-18.29.01:702][806]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 4.03 sec)
+[2024.01.15-18.29.01:704][806]AssetCheck: New page: Asset Save: BP_Enemy_Base
+[2024.01.15-18.29.01:704][806]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/BP_Enemy_Base.BP_Enemy_Base
+[2024.01.15-18.29.02:721][878]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.15-18.29.02:730][878]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.15-18.29.02:730][878]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.15-18.29.02:733][878]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 100 ms)
+[2024.01.15-18.29.02:739][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.15-18.29.02:739][878]PIE: New page: PIE session: ThirdPersonMap (Jan. 15, 2024, 8:29:02 a.m.)
+[2024.01.15-18.29.02:739][878]LogPlayLevel: Display: Creating online subsystem for client :Context_105
+[2024.01.15-18.29.02:741][878]LogOnline: OSS: Created online subsystem instance for: :Context_105
+[2024.01.15-18.29.02:775][879]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.29.02:779][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004198s)
+[2024.01.15-18.29.02:779][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004231s)
+[2024.01.15-18.29.02:797][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.01.15-18.29.02:801][879]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.29.02:801][879]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.29.02:802][879]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.15-18.29.02:802][879]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.15-18.29.02:802][879]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.15-18.29.02:802][879]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.15-18.29.02:802][879]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.15-18.29.02:803][879]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.15-18.29.02:803][879]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 121 ms)
+[2024.01.15-18.29.02:803][879]LogPlayLevel: PIE: World Init took: (0.002104s)
+[2024.01.15-18.29.02:803][879]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2024.01.15-18.29.02:803][879]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.15-18.29.02:803][879]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.15-18.29.02:803][879]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.15-18.29.02:803][879]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.15-18.29.02:803][879]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.15-18.29.02:803][879]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.15-18.29.02:803][879]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.15-18.29.02:803][879]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.15-18.29.02:804][879]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.15-18.29.02:804][879]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.15-18.29.02:804][879]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.15-18.29.02:805][879]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.15-18.29.02:826][879]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 Pro)
+[2024.01.15-18.29.02:826][879]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.15-18.29.02:826][879]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.15-18.29.02:826][879]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.15-18.29.02:826][879]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=61
+[2024.01.15-18.29.02:826][879]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=61
+[2024.01.15-18.29.02:828][879]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=61
+[2024.01.15-18.29.02:828][879]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=61
+[2024.01.15-18.29.02:828][879]LogInit: FAudioDevice initialized with ID 61.
+[2024.01.15-18.29.02:828][879]LogAudio: Display: Audio Device (ID: 61) registered with world 'ThirdPersonMap'.
+[2024.01.15-18.29.02:828][879]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 61
+[2024.01.15-18.29.02:830][879]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.15-18.29.02:834][879]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.15-13.29.02
+[2024.01.15-18.29.02:836][879]LogWorld: Bringing up level for play took: 0.005706
+[2024.01.15-18.29.02:840][879]PIE: Server logged in
+[2024.01.15-18.29.02:841][879]PIE: Play in editor total start time 0.111 seconds.
+[2024.01.15-18.29.07:068][223]LogBlueprintUserMessages: [BP_Enemy_Base_C_UAID_00D86171851B41CF01_1707650191] true
+[2024.01.15-18.29.07:692][274]Cmd: ToggleDebugCamera
+[2024.01.15-18.29.15:738][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.29.15:738][871]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.29.15:738][871]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-18.29.15:738][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.29.15:738][871]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.15-18.29.15:746][871]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.15-18.29.15:750][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.29.15:767][871]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.15-18.29.15:767][871]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 61
+[2024.01.15-18.29.15:767][871]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2024.01.15-18.29.15:769][871]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2024.01.15-18.29.15:771][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.29.15:775][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.15-18.29.15:885][872]LogPlayLevel: Display: Destroying online subsystem :Context_105
+[2024.01.15-18.29.20:624][211]BlueprintLog: New page: Compile BP_Enemy_Base
+[2024.01.15-18.29.20:673][211]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.29.20:673][211]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.29.20:676][211]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.29.20:676][211]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.29.20:677][211]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.29.20:677][211]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.29.20:679][211]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.29.20:679][211]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.29.20:680][211]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.29.20:680][211]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.29.20:682][211]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.29.20:682][211]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.29.20:683][211]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.29.20:683][211]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.29.20:712][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.15-18.29.20:726][211]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.29.20:726][211]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.29.21:174][236]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-18.29.21:238][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/BP_Enemy_Base" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset" SILENT=true
+[2024.01.15-18.29.21:275][236]LogSavePackage: Moving output files for package: /Game/Characters/BP_Enemy_Base
+[2024.01.15-18.29.21:275][236]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BP_Enemy_Base4395702348BEDECBE6318B9995F6E39F.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset'
+[2024.01.15-18.29.21:285][236]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 4.14 sec)
+[2024.01.15-18.29.21:287][236]AssetCheck: New page: Asset Save: BP_Enemy_Base
+[2024.01.15-18.29.21:287][236]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/BP_Enemy_Base.BP_Enemy_Base
+[2024.01.15-18.29.22:578][326]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.15-18.29.22:588][326]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.15-18.29.22:588][326]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.15-18.29.22:589][326]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 101 ms)
+[2024.01.15-18.29.22:596][326]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.15-18.29.22:596][326]PIE: New page: PIE session: ThirdPersonMap (Jan. 15, 2024, 8:29:22 a.m.)
+[2024.01.15-18.29.22:596][326]LogPlayLevel: Display: Creating online subsystem for client :Context_106
+[2024.01.15-18.29.22:598][326]LogOnline: OSS: Created online subsystem instance for: :Context_106
+[2024.01.15-18.29.22:631][327]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.29.22:635][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004564s)
+[2024.01.15-18.29.22:635][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004609s)
+[2024.01.15-18.29.22:653][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.15-18.29.22:656][327]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.29.22:656][327]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.29.22:657][327]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.15-18.29.22:657][327]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.15-18.29.22:657][327]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.15-18.29.22:657][327]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.15-18.29.22:657][327]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.15-18.29.22:658][327]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.15-18.29.22:658][327]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 122 ms)
+[2024.01.15-18.29.22:658][327]LogPlayLevel: PIE: World Init took: (0.002009s)
+[2024.01.15-18.29.22:658][327]LogAudio: Display: Creating Audio Device:                 Id: 62, Scope: Unique, Realtime: True
+[2024.01.15-18.29.22:658][327]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.15-18.29.22:658][327]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.15-18.29.22:658][327]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.15-18.29.22:658][327]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.15-18.29.22:658][327]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.15-18.29.22:658][327]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.15-18.29.22:658][327]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.15-18.29.22:658][327]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.15-18.29.22:659][327]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.15-18.29.22:659][327]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.15-18.29.22:659][327]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.15-18.29.22:660][327]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.15-18.29.22:680][327]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 Pro)
+[2024.01.15-18.29.22:680][327]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.15-18.29.22:680][327]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.15-18.29.22:680][327]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.15-18.29.22:680][327]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=62
+[2024.01.15-18.29.22:680][327]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=62
+[2024.01.15-18.29.22:682][327]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=62
+[2024.01.15-18.29.22:682][327]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=62
+[2024.01.15-18.29.22:682][327]LogInit: FAudioDevice initialized with ID 62.
+[2024.01.15-18.29.22:682][327]LogAudio: Display: Audio Device (ID: 62) registered with world 'ThirdPersonMap'.
+[2024.01.15-18.29.22:682][327]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 62
+[2024.01.15-18.29.22:684][327]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.15-18.29.22:688][327]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.15-13.29.22
+[2024.01.15-18.29.22:691][327]LogWorld: Bringing up level for play took: 0.005602
+[2024.01.15-18.29.22:695][327]PIE: Server logged in
+[2024.01.15-18.29.22:695][327]PIE: Play in editor total start time 0.107 seconds.
+[2024.01.15-18.29.25:938][593]LogBlueprintUserMessages: [BP_Enemy_Base_C_UAID_00D86171851B41CF01_1707650191] true
+[2024.01.15-18.29.26:147][608]Cmd: ToggleDebugCamera
+[2024.01.15-18.30.09:387][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.30.09:387][833]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.30.09:387][833]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-18.30.09:387][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.30.09:387][833]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.15-18.30.09:395][833]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.15-18.30.09:400][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.30.09:416][833]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.15-18.30.09:417][833]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 62
+[2024.01.15-18.30.09:417][833]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2024.01.15-18.30.09:418][833]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2024.01.15-18.30.09:422][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.30.09:425][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.15-18.30.09:537][834]LogPlayLevel: Display: Destroying online subsystem :Context_106
+[2024.01.15-18.30.11:107][941]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.15-18.30.11:115][941]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.15-18.30.11:115][941]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.15-18.30.11:116][941]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 103 ms)
+[2024.01.15-18.30.11:123][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.15-18.30.11:123][941]PIE: New page: PIE session: ThirdPersonMap (Jan. 15, 2024, 8:30:11 a.m.)
+[2024.01.15-18.30.11:123][941]LogPlayLevel: Display: Creating online subsystem for client :Context_107
+[2024.01.15-18.30.11:125][941]LogOnline: OSS: Created online subsystem instance for: :Context_107
+[2024.01.15-18.30.11:157][942]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.30.11:162][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004305s)
+[2024.01.15-18.30.11:162][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004336s)
+[2024.01.15-18.30.11:177][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.15-18.30.11:181][942]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.30.11:181][942]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.30.11:181][942]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.15-18.30.11:182][942]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.15-18.30.11:182][942]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.15-18.30.11:182][942]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.15-18.30.11:182][942]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.15-18.30.11:183][942]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.15-18.30.11:183][942]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 123 ms)
+[2024.01.15-18.30.11:183][942]LogPlayLevel: PIE: World Init took: (0.002023s)
+[2024.01.15-18.30.11:183][942]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2024.01.15-18.30.11:183][942]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.15-18.30.11:183][942]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.15-18.30.11:183][942]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.15-18.30.11:183][942]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.15-18.30.11:183][942]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.15-18.30.11:183][942]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.15-18.30.11:183][942]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.15-18.30.11:183][942]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.15-18.30.11:183][942]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.15-18.30.11:183][942]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.15-18.30.11:183][942]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.15-18.30.11:185][942]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.15-18.30.11:206][942]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 Pro)
+[2024.01.15-18.30.11:206][942]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.15-18.30.11:206][942]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.15-18.30.11:206][942]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.15-18.30.11:206][942]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=63
+[2024.01.15-18.30.11:206][942]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=63
+[2024.01.15-18.30.11:208][942]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=63
+[2024.01.15-18.30.11:208][942]LogInit: FAudioDevice initialized with ID 63.
+[2024.01.15-18.30.11:208][942]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=63
+[2024.01.15-18.30.11:208][942]LogAudio: Display: Audio Device (ID: 63) registered with world 'ThirdPersonMap'.
+[2024.01.15-18.30.11:208][942]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 63
+[2024.01.15-18.30.11:210][942]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.15-18.30.11:214][942]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.15-13.30.11
+[2024.01.15-18.30.11:216][942]LogWorld: Bringing up level for play took: 0.005668
+[2024.01.15-18.30.11:220][942]PIE: Server logged in
+[2024.01.15-18.30.11:221][942]PIE: Play in editor total start time 0.106 seconds.
+[2024.01.15-18.30.15:782][296]Cmd: ToggleDebugCamera
+[2024.01.15-18.30.24:999][984]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.30.24:999][984]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.30.25:000][984]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-18.30.25:001][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.30.25:001][984]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.15-18.30.25:010][984]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.15-18.30.25:015][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.30.25:032][984]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.30.25:032][984]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 63
+[2024.01.15-18.30.25:032][984]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2024.01.15-18.30.25:034][984]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2024.01.15-18.30.25:039][984]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.01.15-18.30.25:151][985]LogPlayLevel: Display: Destroying online subsystem :Context_107
+[2024.01.15-18.30.26:449][ 79]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.15-18.30.26:457][ 79]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.15-18.30.26:457][ 79]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.15-18.30.26:458][ 79]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 104 ms)
+[2024.01.15-18.30.26:466][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.15-18.30.26:466][ 79]PIE: New page: PIE session: ThirdPersonMap (Jan. 15, 2024, 8:30:26 a.m.)
+[2024.01.15-18.30.26:501][ 79]LogPlayLevel: Display: Creating online subsystem for client :Context_108
+[2024.01.15-18.30.26:503][ 79]LogOnline: OSS: Created online subsystem instance for: :Context_108
+[2024.01.15-18.30.26:535][ 80]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.30.26:539][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004421s)
+[2024.01.15-18.30.26:539][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004454s)
+[2024.01.15-18.30.26:556][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.01.15-18.30.26:559][ 80]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.30.26:559][ 80]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.30.26:559][ 80]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.15-18.30.26:559][ 80]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.15-18.30.26:559][ 80]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.15-18.30.26:559][ 80]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.15-18.30.26:559][ 80]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.15-18.30.26:560][ 80]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.15-18.30.26:560][ 80]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 124 ms)
+[2024.01.15-18.30.26:560][ 80]LogPlayLevel: PIE: World Init took: (0.001981s)
+[2024.01.15-18.30.26:560][ 80]LogAudio: Display: Creating Audio Device:                 Id: 64, Scope: Unique, Realtime: True
+[2024.01.15-18.30.26:560][ 80]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.15-18.30.26:560][ 80]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.15-18.30.26:560][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.15-18.30.26:560][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.15-18.30.26:560][ 80]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.15-18.30.26:560][ 80]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.15-18.30.26:560][ 80]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.15-18.30.26:560][ 80]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.15-18.30.26:561][ 80]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.15-18.30.26:561][ 80]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.15-18.30.26:561][ 80]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.15-18.30.26:562][ 80]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.15-18.30.26:583][ 80]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 Pro)
+[2024.01.15-18.30.26:583][ 80]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.15-18.30.26:583][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.15-18.30.26:583][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.15-18.30.26:583][ 80]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=64
+[2024.01.15-18.30.26:583][ 80]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=64
+[2024.01.15-18.30.26:585][ 80]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=64
+[2024.01.15-18.30.26:585][ 80]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=64
+[2024.01.15-18.30.26:585][ 80]LogInit: FAudioDevice initialized with ID 64.
+[2024.01.15-18.30.26:585][ 80]LogAudio: Display: Audio Device (ID: 64) registered with world 'ThirdPersonMap'.
+[2024.01.15-18.30.26:585][ 80]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 64
+[2024.01.15-18.30.26:588][ 80]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.15-18.30.26:592][ 80]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.15-13.30.26
+[2024.01.15-18.30.26:594][ 80]LogWorld: Bringing up level for play took: 0.005592
+[2024.01.15-18.30.26:598][ 80]PIE: Server logged in
+[2024.01.15-18.30.26:598][ 80]PIE: Play in editor total start time 0.141 seconds.
+[2024.01.15-18.31.25:878][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.31.25:878][673]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.31.25:878][673]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-18.31.25:878][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.31.25:878][673]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.15-18.31.25:886][673]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.15-18.31.25:891][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.31.25:907][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.31.25:908][673]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 64
+[2024.01.15-18.31.25:908][673]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2024.01.15-18.31.25:909][673]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2024.01.15-18.31.25:915][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.01.15-18.31.26:030][674]LogPlayLevel: Display: Destroying online subsystem :Context_108
+[2024.01.15-18.31.45:283][ 61]BlueprintLog: New page: Compile BP_Enemy_Base
+[2024.01.15-18.31.45:333][ 61]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.31.45:333][ 61]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.31.45:336][ 61]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.31.45:336][ 61]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.31.45:337][ 61]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.31.45:337][ 61]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.31.45:339][ 61]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.31.45:339][ 61]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.31.45:340][ 61]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.31.45:340][ 61]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.31.45:341][ 61]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.31.45:341][ 61]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.31.45:342][ 61]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.31.45:342][ 61]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.31.45:369][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.15-18.31.45:385][ 61]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.15-18.31.45:385][ 61]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.15-18.31.46:922][166]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-18.31.46:986][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/BP_Enemy_Base" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset" SILENT=true
+[2024.01.15-18.31.47:023][166]LogSavePackage: Moving output files for package: /Game/Characters/BP_Enemy_Base
+[2024.01.15-18.31.47:023][166]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BP_Enemy_BaseDC4AE51A419B4016F17BCA8E6BBC3DFD.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset'
+[2024.01.15-18.31.47:031][166]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 4.25 sec)
+[2024.01.15-18.31.47:033][166]AssetCheck: New page: Asset Save: BP_Enemy_Base
+[2024.01.15-18.31.47:033][166]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/BP_Enemy_Base.BP_Enemy_Base
+[2024.01.15-18.32.36:016][711]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.15-18.32.36:024][711]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.15-18.32.36:024][711]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.15-18.32.36:026][711]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 106 ms)
+[2024.01.15-18.32.36:034][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.15-18.32.36:034][711]PIE: New page: PIE session: ThirdPersonMap (Jan. 15, 2024, 8:32:36 a.m.)
+[2024.01.15-18.32.36:034][711]LogPlayLevel: Display: Creating online subsystem for client :Context_109
+[2024.01.15-18.32.36:036][711]LogOnline: OSS: Created online subsystem instance for: :Context_109
+[2024.01.15-18.32.36:070][712]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.32.36:075][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004549s)
+[2024.01.15-18.32.36:075][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004586s)
+[2024.01.15-18.32.36:095][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.15-18.32.36:101][712]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.32.36:101][712]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.32.36:101][712]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.15-18.32.36:101][712]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.15-18.32.36:101][712]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.15-18.32.36:101][712]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.15-18.32.36:101][712]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.15-18.32.36:102][712]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.15-18.32.36:102][712]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 125 ms)
+[2024.01.15-18.32.36:103][712]LogPlayLevel: PIE: World Init took: (0.002115s)
+[2024.01.15-18.32.36:103][712]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2024.01.15-18.32.36:103][712]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.15-18.32.36:103][712]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.15-18.32.36:103][712]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.15-18.32.36:103][712]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.15-18.32.36:103][712]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.15-18.32.36:103][712]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.15-18.32.36:103][712]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.15-18.32.36:103][712]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.15-18.32.36:103][712]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.15-18.32.36:103][712]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.15-18.32.36:103][712]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.15-18.32.36:105][712]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.15-18.32.36:126][712]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 Pro)
+[2024.01.15-18.32.36:126][712]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.15-18.32.36:126][712]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.15-18.32.36:126][712]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.15-18.32.36:127][712]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=65
+[2024.01.15-18.32.36:127][712]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=65
+[2024.01.15-18.32.36:128][712]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=65
+[2024.01.15-18.32.36:128][712]LogInit: FAudioDevice initialized with ID 65.
+[2024.01.15-18.32.36:128][712]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=65
+[2024.01.15-18.32.36:128][712]LogAudio: Display: Audio Device (ID: 65) registered with world 'ThirdPersonMap'.
+[2024.01.15-18.32.36:128][712]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 65
+[2024.01.15-18.32.36:130][712]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.15-18.32.36:134][712]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.15-13.32.36
+[2024.01.15-18.32.36:136][712]LogWorld: Bringing up level for play took: 0.005554
+[2024.01.15-18.32.36:140][712]PIE: Server logged in
+[2024.01.15-18.32.36:141][712]PIE: Play in editor total start time 0.117 seconds.
+[2024.01.15-18.32.36:666][746]LogBlueprintUserMessages: [BP_Enemy_Base_C_UAID_00D86171851B41CF01_1707650191] true
+[2024.01.15-18.32.54:347][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.32.54:347][ 67]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.32.54:347][ 67]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-18.32.54:347][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.32.54:347][ 67]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.15-18.32.54:354][ 67]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.15-18.32.54:359][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.32.54:375][ 67]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.15-18.32.54:376][ 67]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 65
+[2024.01.15-18.32.54:376][ 67]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2024.01.15-18.32.54:377][ 67]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2024.01.15-18.32.54:380][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.32.54:384][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.01.15-18.32.54:478][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_109
+[2024.01.15-18.33.09:253][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.15-18.33.09:298][ 84]LogSavePackage: Moving output files for package: /Game/Characters/Ai/BehaviorTrees/BT_Enemy_Base
+[2024.01.15-18.33.09:299][ 84]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BT_Enemy_Base872AA3294513624F4EA8A4AB364E0A6A.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/BehaviorTrees/BT_Enemy_Base.uasset'
+[2024.01.15-18.33.09:309][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 4.30 sec)
+[2024.01.15-18.33.09:311][ 84]AssetCheck: New page: Asset Save: BT_Enemy_Base
+[2024.01.15-18.33.09:311][ 84]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/Characters/Ai/BehaviorTrees/BT_Enemy_Base.BT_Enemy_Base
+[2024.01.15-18.33.10:494][169]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.15-18.33.10:503][169]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.15-18.33.10:503][169]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.15-18.33.10:505][169]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 107 ms)
+[2024.01.15-18.33.10:511][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.15-18.33.10:511][169]PIE: New page: PIE session: ThirdPersonMap (Jan. 15, 2024, 8:33:10 a.m.)
+[2024.01.15-18.33.10:511][169]LogPlayLevel: Display: Creating online subsystem for client :Context_110
+[2024.01.15-18.33.10:513][169]LogOnline: OSS: Created online subsystem instance for: :Context_110
+[2024.01.15-18.33.10:545][170]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.33.10:549][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004279s)
+[2024.01.15-18.33.10:549][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004312s)
+[2024.01.15-18.33.10:565][170]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.01.15-18.33.10:567][170]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.15-18.33.10:567][170]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.15-18.33.10:568][170]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.15-18.33.10:568][170]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.15-18.33.10:568][170]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.15-18.33.10:568][170]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.15-18.33.10:568][170]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.15-18.33.10:570][170]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.15-18.33.10:570][170]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 126 ms)
+[2024.01.15-18.33.10:570][170]LogPlayLevel: PIE: World Init took: (0.002131s)
+[2024.01.15-18.33.10:570][170]LogAudio: Display: Creating Audio Device:                 Id: 66, Scope: Unique, Realtime: True
+[2024.01.15-18.33.10:570][170]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.15-18.33.10:570][170]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.15-18.33.10:570][170]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.15-18.33.10:570][170]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.15-18.33.10:570][170]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.15-18.33.10:570][170]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.15-18.33.10:570][170]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.15-18.33.10:570][170]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.15-18.33.10:570][170]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.15-18.33.10:570][170]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.15-18.33.10:570][170]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.15-18.33.10:571][170]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.15-18.33.10:592][170]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 Pro)
+[2024.01.15-18.33.10:592][170]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.15-18.33.10:592][170]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.15-18.33.10:592][170]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.15-18.33.10:593][170]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=66
+[2024.01.15-18.33.10:593][170]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=66
+[2024.01.15-18.33.10:594][170]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=66
+[2024.01.15-18.33.10:594][170]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=66
+[2024.01.15-18.33.10:594][170]LogInit: FAudioDevice initialized with ID 66.
+[2024.01.15-18.33.10:594][170]LogAudio: Display: Audio Device (ID: 66) registered with world 'ThirdPersonMap'.
+[2024.01.15-18.33.10:594][170]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 66
+[2024.01.15-18.33.10:596][170]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.15-18.33.10:601][170]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.15-13.33.10
+[2024.01.15-18.33.10:603][170]LogWorld: Bringing up level for play took: 0.005609
+[2024.01.15-18.33.10:607][170]PIE: Server logged in
+[2024.01.15-18.33.10:608][170]PIE: Play in editor total start time 0.104 seconds.
+[2024.01.15-18.33.11:011][196]LogBlueprintUserMessages: [BP_Enemy_Base_C_UAID_00D86171851B41CF01_1707650191] true
+[2024.01.15-18.33.29:798][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.33.29:798][666]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.15-18.33.29:798][666]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.15-18.33.29:798][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.33.29:798][666]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.15-18.33.29:804][666]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.15-18.33.29:809][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.15-18.33.29:826][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.15-18.33.29:826][666]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 66
+[2024.01.15-18.33.29:826][666]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66
+[2024.01.15-18.33.29:828][666]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66
+[2024.01.15-18.33.29:833][666]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.01.15-18.33.29:926][667]LogPlayLevel: Display: Destroying online subsystem :Context_110
