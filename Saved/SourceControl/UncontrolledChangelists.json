@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Eliana/OneDrive/Documents/GitHub/Lords-of-The-Abyss/Content/Megascans/3D_Assets/Chapel_Pillar_sbovu/S_Chapel_Pillar_sbovu_lod3.uasset",
+				"C:/Users/Eliana/OneDrive/Documents/GitHub/Lords-of-The-Abyss/Content/Megascans/3D_Assets/Half_Timbered_Corner_Wall_ucskaishx/MI_Half_Timbered_Corner_Wall_ucskaishx_2K.uasset",
+				"C:/Users/Eliana/OneDrive/Documents/GitHub/Lords-of-The-Abyss/Content/Eliana/LevelTesting/Level_01.umap",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/Enums/SpectralWardenAttacks.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/BehaviorTrees/BT_Enemy_Base.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/Tasks/BTT_SpectralWardenAttacks.uasset",
