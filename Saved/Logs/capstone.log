@@ -1182,3 +1182,7 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2024.01.16-22.09.13:904][513]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BonefireSystem/Framework/GM_BoneFireGame.GM_BoneFireGame
 [2024.01.16-22.09.13:904][513]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2024.01.16-22.09.13:904][513]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.16-22.10.50:643][910]LogSlate: Window 'GM_BoneFireGame' being destroyed
+[2024.01.16-22.10.50:651][910]LogSlate: Window 'GM_BoneFireGame' being destroyed
+[2024.01.16-22.10.50:658][910]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.01.16-22.10.50:658][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
