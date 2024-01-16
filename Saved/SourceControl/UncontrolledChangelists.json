@@ -6,11 +6,15 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/Enums/SpectralWardenAttacks.uasset",
-				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/Tasks/BTT_MeleeAttack.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/BehaviorTrees/BT_Enemy_Base.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/Tasks/BTT_SpectralWardenAttacks.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/Services/BTS_UpdateDistanceToTarget.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Attacks/S_AttackInfo.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Attacks/BPC_Attacks.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/DamageSystem/BPI_Damageable.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Player/BP_Player.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/Tasks/BTT_MeleeAttack.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Bosses/SpectralWarden/Animations/AUTORIG_Attack_Tva6_Anim.uasset"
 			]
 		}
