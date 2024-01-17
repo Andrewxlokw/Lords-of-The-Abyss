@@ -2184,3 +2184,1248 @@ Make sure 'BP_Player_C' has been compiled for  Set BoneFireRef
 [2024.01.17-00.14.35:793][954]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 415 ms)
 [2024.01.17-00.14.35:794][954]AssetCheck: New page: Asset Save: BT_Enemy_Base
 [2024.01.17-00.14.35:794][954]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/Characters/Ai/BehaviorTrees/BT_Enemy_Base.BT_Enemy_Base
+[2024.01.17-00.15.23:684][872]LogAutomationController: Ignoring very large delta of 4.88 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.01.17-00.15.28:151][210]LogViewport: Scene viewport resized to 1245x641, mode Windowed.
+[2024.01.17-00.15.41:429][249]LogEditorTransaction: Undo Break Node Links
+[2024.01.17-00.15.48:111][697]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.17-00.15.48:119][697]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.17-00.15.48:119][697]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.17-00.15.48:120][697]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 10 ms)
+[2024.01.17-00.15.48:121][697]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.17-00.15.48:134][697]LogPlayLevel: [PlayLevel] Compiling BPC_Attacks before play...
+[2024.01.17-00.15.48:219][697]LogPlayLevel: [PlayLevel] Compiling BTT_SpectralWardenAttacks before play...
+[2024.01.17-00.15.48:261][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.01.17-00.15.48:262][697]LogPlayLevel: PlayLevel: Blueprint regeneration took 141 ms (2 blueprints)
+[2024.01.17-00.15.48:262][697]PIE: New page: PIE session: ThirdPersonMap (Jan. 16, 2024, 2:15:48 p.m.)
+[2024.01.17-00.15.48:292][697]LogPlayLevel: Display: Creating online subsystem for client :Context_17
+[2024.01.17-00.15.48:293][697]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.01.17-00.15.48:442][698]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.17-00.15.48:446][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004126s)
+[2024.01.17-00.15.48:446][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004161s)
+[2024.01.17-00.15.48:459][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.01.17-00.15.48:459][698]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.15.48:459][698]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.17-00.15.48:461][698]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.17-00.15.48:461][698]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.17-00.15.48:461][698]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.17-00.15.48:461][698]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.17-00.15.48:461][698]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.17-00.15.48:462][698]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.17-00.15.48:462][698]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 77 ms)
+[2024.01.17-00.15.48:462][698]LogPlayLevel: PIE: World Init took: (0.002037s)
+[2024.01.17-00.15.48:462][698]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.01.17-00.15.48:462][698]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.17-00.15.48:462][698]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.17-00.15.48:462][698]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.17-00.15.48:462][698]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.17-00.15.48:462][698]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.17-00.15.48:462][698]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.17-00.15.48:462][698]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.17-00.15.48:462][698]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.17-00.15.48:463][698]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.17-00.15.48:463][698]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.17-00.15.48:463][698]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.17-00.15.48:464][698]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.17-00.15.48:483][698]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Razer BlackShark V2 Pro)
+[2024.01.17-00.15.48:484][698]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.17-00.15.48:484][698]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.17-00.15.48:484][698]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.17-00.15.48:484][698]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.01.17-00.15.48:484][698]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.01.17-00.15.48:486][698]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.01.17-00.15.48:486][698]LogInit: FAudioDevice initialized with ID 7.
+[2024.01.17-00.15.48:486][698]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.01.17-00.15.48:486][698]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2024.01.17-00.15.48:486][698]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.01.17-00.15.48:488][698]LogLoad: Game class is 'GM_BoneFireGame_C'
+[2024.01.17-00.15.48:491][698]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.16-19.15.48
+[2024.01.17-00.15.48:493][698]LogWorld: Bringing up level for play took: 0.005762
+[2024.01.17-00.15.48:497][698]LogBlueprintUserMessages: [BP_Player_C_0] Hello, event begin play
+[2024.01.17-00.15.48:497][698]PIE: Server logged in
+[2024.01.17-00.15.48:498][698]PIE: Play in editor total start time 0.38 seconds.
+[2024.01.17-00.15.54:769][181]LogBlueprintUserMessages: [BPSC_Enemy_SpectralWarden_C_UAID_00D86171851BE5CF01_1833586055] wakeup
+[2024.01.17-00.15.55:255][224]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] START
+[2024.01.17-00.15.55:255][224]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.15.55:255][224]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.15.56:284][313]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.15.56:284][313]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.16.00:888][701]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.16.03:142][896]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] START
+[2024.01.17-00.16.03:142][896]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_2_Montage
+[2024.01.17-00.16.03:142][896]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] BEFORE_END
+[2024.01.17-00.16.05:186][ 68]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_2_Montage
+[2024.01.17-00.16.05:186][ 68]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] BEFORE_END
+[2024.01.17-00.16.09:357][416]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.16.09:357][416]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.16.09:416][421]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.16.09:416][421]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.16.09:416][421]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_PlayMontage', from offset 132
+[2024.01.17-00.16.09:416][421]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Characters/Ai/Tasks/BTT_SpectralWardenAttacks.BTT_SpectralWardenAttacks_C:ReceiveExecuteAI
+	Function /Game/Characters/Ai/Tasks/BTT_SpectralWardenAttacks.BTT_SpectralWardenAttacks_C:ExecuteUbergraph_BTT_SpectralWardenAttacks
+	Function /Game/Characters/BPSC_Enemy_SpectralWarden.BPSC_Enemy_SpectralWarden_C:ShortRange
+	Function /Game/Characters/BPSC_Enemy_SpectralWarden.BPSC_Enemy_SpectralWarden_C:ExecuteUbergraph_BPSC_Enemy_SpectralWarden
+	Function /Game/Attacks/BPC_Attacks.BPC_Attacks_C:ShortRange
+	Function /Game/Attacks/BPC_Attacks.BPC_Attacks_C:ExecuteUbergraph_BPC_Attacks
+
+[2024.01.17-00.16.17:095][421]LogViewport: Scene viewport resized to 1895x1012, mode Windowed.
+[2024.01.17-00.16.17:158][421]LogViewport: Scene viewport resized to 1895x988, mode Windowed.
+[2024.01.17-00.16.17:189][421]LogViewport: Scene viewport resized to 1895x962, mode Windowed.
+[2024.01.17-00.16.17:221][421]LogViewport: Scene viewport resized to 1895x940, mode Windowed.
+[2024.01.17-00.16.17:254][421]LogViewport: Scene viewport resized to 1895x924, mode Windowed.
+[2024.01.17-00.16.17:286][421]LogViewport: Scene viewport resized to 1895x917, mode Windowed.
+[2024.01.17-00.16.17:317][421]LogViewport: Scene viewport resized to 1895x911, mode Windowed.
+[2024.01.17-00.16.17:346][421]LogViewport: Scene viewport resized to 1895x904, mode Windowed.
+[2024.01.17-00.16.17:376][421]LogViewport: Scene viewport resized to 1895x902, mode Windowed.
+[2024.01.17-00.16.17:443][421]LogViewport: Scene viewport resized to 1895x899, mode Windowed.
+[2024.01.17-00.16.17:474][421]LogViewport: Scene viewport resized to 1895x893, mode Windowed.
+[2024.01.17-00.16.17:503][421]LogViewport: Scene viewport resized to 1895x890, mode Windowed.
+[2024.01.17-00.16.17:532][421]LogViewport: Scene viewport resized to 1895x888, mode Windowed.
+[2024.01.17-00.16.17:561][421]LogViewport: Scene viewport resized to 1895x884, mode Windowed.
+[2024.01.17-00.16.17:936][421]LogViewport: Scene viewport resized to 1895x882, mode Windowed.
+[2024.01.17-00.16.17:975][421]LogViewport: Scene viewport resized to 1895x877, mode Windowed.
+[2024.01.17-00.16.18:007][421]LogViewport: Scene viewport resized to 1895x872, mode Windowed.
+[2024.01.17-00.16.18:038][421]LogViewport: Scene viewport resized to 1895x866, mode Windowed.
+[2024.01.17-00.16.18:073][421]LogViewport: Scene viewport resized to 1895x863, mode Windowed.
+[2024.01.17-00.16.18:579][421]LogViewport: Scene viewport resized to 1895x862, mode Windowed.
+[2024.01.17-00.16.18:619][421]LogViewport: Scene viewport resized to 1895x860, mode Windowed.
+[2024.01.17-00.16.18:759][421]LogViewport: Scene viewport resized to 1895x861, mode Windowed.
+[2024.01.17-00.16.18:787][421]LogViewport: Scene viewport resized to 1895x863, mode Windowed.
+[2024.01.17-00.16.18:816][421]LogViewport: Scene viewport resized to 1895x866, mode Windowed.
+[2024.01.17-00.16.18:844][421]LogViewport: Scene viewport resized to 1895x871, mode Windowed.
+[2024.01.17-00.16.18:873][421]LogViewport: Scene viewport resized to 1895x879, mode Windowed.
+[2024.01.17-00.16.18:905][421]LogViewport: Scene viewport resized to 1895x883, mode Windowed.
+[2024.01.17-00.16.18:932][421]LogViewport: Scene viewport resized to 1895x887, mode Windowed.
+[2024.01.17-00.16.18:963][421]LogViewport: Scene viewport resized to 1895x893, mode Windowed.
+[2024.01.17-00.16.18:989][421]LogViewport: Scene viewport resized to 1895x896, mode Windowed.
+[2024.01.17-00.16.19:018][421]LogViewport: Scene viewport resized to 1895x899, mode Windowed.
+[2024.01.17-00.16.19:046][421]LogViewport: Scene viewport resized to 1895x903, mode Windowed.
+[2024.01.17-00.16.19:074][421]LogViewport: Scene viewport resized to 1895x905, mode Windowed.
+[2024.01.17-00.16.19:105][421]LogViewport: Scene viewport resized to 1895x908, mode Windowed.
+[2024.01.17-00.16.19:132][421]LogViewport: Scene viewport resized to 1895x910, mode Windowed.
+[2024.01.17-00.16.19:162][421]LogViewport: Scene viewport resized to 1895x912, mode Windowed.
+[2024.01.17-00.16.19:191][421]LogViewport: Scene viewport resized to 1895x913, mode Windowed.
+[2024.01.17-00.16.19:221][421]LogViewport: Scene viewport resized to 1895x914, mode Windowed.
+[2024.01.17-00.16.45:668][421]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.16.45:683][421]LogAutomationController: Ignoring very large delta of 36.27 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.01.17-00.16.45:686][422]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.16.45:686][422]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_PlayMontage', from offset 132
+[2024.01.17-00.16.45:686][422]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Characters/Ai/Tasks/BTT_SpectralWardenAttacks.BTT_SpectralWardenAttacks_C:OnSuccess_B2D684244D35F1366B855680D6ABAB78
+	Function /Game/Characters/Ai/Tasks/BTT_SpectralWardenAttacks.BTT_SpectralWardenAttacks_C:ExecuteUbergraph_BTT_SpectralWardenAttacks
+	Function /Game/Characters/BPSC_Enemy_SpectralWarden.BPSC_Enemy_SpectralWarden_C:ShortRange
+	Function /Game/Characters/BPSC_Enemy_SpectralWarden.BPSC_Enemy_SpectralWarden_C:ExecuteUbergraph_BPSC_Enemy_SpectralWarden
+	Function /Game/Attacks/BPC_Attacks.BPC_Attacks_C:ShortRange
+	Function /Game/Attacks/BPC_Attacks.BPC_Attacks_C:ExecuteUbergraph_BPC_Attacks
+
+[2024.01.17-00.16.51:636][422]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_PlayMontage', from offset 0
+[2024.01.17-00.16.51:636][422]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Attacks/BPC_Attacks.BPC_Attacks_C:OnInterrupted_61B59C154C811A17818AB7A4552B2D56
+
+[2024.01.17-00.16.57:718][422]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.16.57:718][422]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.16.57:718][422]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.16.57:718][422]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.16.57:737][423]LogAutomationController: Ignoring very large delta of 12.05 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.01.17-00.17.00:579][657]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_PlayMontage', from offset 0
+[2024.01.17-00.17.00:579][657]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Attacks/BPC_Attacks.BPC_Attacks_C:OnBlendOut_61B59C154C811A17818AB7A4552B2D56
+
+[2024.01.17-00.17.05:959][657]LogAutomationController: Ignoring very large delta of 5.38 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.01.17-00.17.06:554][706]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_PlayMontage', from offset 0
+[2024.01.17-00.17.06:554][706]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Attacks/BPC_Attacks.BPC_Attacks_C:OnCompleted_61B59C154C811A17818AB7A4552B2D56
+
+[2024.01.17-00.17.16:512][706]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.17.16:512][706]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.17.16:512][706]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.17.16:528][707]LogAutomationController: Ignoring very large delta of 9.97 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.01.17-00.17.16:591][711]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] START
+[2024.01.17-00.17.16:591][711]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_3_Montage
+[2024.01.17-00.17.16:591][711]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] BEFORE_END
+[2024.01.17-00.17.17:442][779]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_3_Montage
+[2024.01.17-00.17.17:442][779]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] BEFORE_END
+[2024.01.17-00.17.21:144][ 90]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.17.21:144][ 90]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.17.21:144][ 90]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.17.21:144][ 90]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.17.21:220][ 96]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] START
+[2024.01.17-00.17.21:220][ 96]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.17.21:220][ 96]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.17.22:604][218]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.17.22:604][218]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.17.27:204][613]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.17.27:204][613]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.17.27:204][613]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.17.27:204][613]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.17.27:273][619]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] START
+[2024.01.17-00.17.27:273][619]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_2_Montage
+[2024.01.17-00.17.27:274][619]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] BEFORE_END
+[2024.01.17-00.17.28:711][742]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_2_Montage
+[2024.01.17-00.17.28:711][742]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] BEFORE_END
+[2024.01.17-00.17.32:886][ 98]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.17.32:886][ 98]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.17.32:886][ 98]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.17.32:886][ 98]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.17.32:953][104]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] START
+[2024.01.17-00.17.32:953][104]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_3_Montage
+[2024.01.17-00.17.32:953][104]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] BEFORE_END
+[2024.01.17-00.17.33:532][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.17-00.17.33:532][152]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.17-00.17.33:532][152]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.17-00.17.33:532][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.17-00.17.33:532][152]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.17-00.17.33:537][152]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.17-00.17.33:542][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.17-00.17.33:554][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.17-00.17.33:554][152]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.01.17-00.17.33:554][152]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.01.17-00.17.33:556][152]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.01.17-00.17.33:562][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.17-00.17.33:612][153]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.01.17-00.17.40:039][649]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Attacks/BPC_Attacks.BPC_Attacks without an associated node. The blueprint breakpoint has been removed
+[2024.01.17-00.17.40:039][649]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Attacks/BPC_Attacks.BPC_Attacks without an associated node. The blueprint breakpoint has been removed
+[2024.01.17-00.18.24:275][ 22]BlueprintLog: New page: Compile BPC_Attacks
+[2024.01.17-00.18.24:325][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.17-00.18.25:047][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.17-00.18.25:081][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Attacks/BPC_Attacks" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Attacks/BPC_Attacks.uasset" SILENT=true
+[2024.01.17-00.18.25:101][ 63]LogSavePackage: Moving output files for package: /Game/Attacks/BPC_Attacks
+[2024.01.17-00.18.25:102][ 63]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BPC_Attacks902A186847B2712DDAB9FB8E453B6086.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Attacks/BPC_Attacks.uasset'
+[2024.01.17-00.18.25:111][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 480 ms)
+[2024.01.17-00.18.25:113][ 63]AssetCheck: New page: Asset Save: BPC_Attacks
+[2024.01.17-00.18.25:113][ 63]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Attacks/BPC_Attacks.BPC_Attacks
+[2024.01.17-00.18.26:056][136]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.17-00.18.26:064][136]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.17-00.18.26:064][136]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.17-00.18.26:066][136]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 11 ms)
+[2024.01.17-00.18.26:066][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.17-00.18.26:066][136]PIE: New page: PIE session: ThirdPersonMap (Jan. 16, 2024, 2:18:26 p.m.)
+[2024.01.17-00.18.26:066][136]LogPlayLevel: Display: Creating online subsystem for client :Context_18
+[2024.01.17-00.18.26:068][136]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.01.17-00.18.26:102][137]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.17-00.18.26:106][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003972s)
+[2024.01.17-00.18.26:106][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004005s)
+[2024.01.17-00.18.26:121][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.17-00.18.26:123][137]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.18.26:123][137]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.17-00.18.26:123][137]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.17-00.18.26:124][137]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.17-00.18.26:124][137]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.17-00.18.26:124][137]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.17-00.18.26:124][137]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.17-00.18.26:125][137]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.17-00.18.26:125][137]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 78 ms)
+[2024.01.17-00.18.26:125][137]LogPlayLevel: PIE: World Init took: (0.001945s)
+[2024.01.17-00.18.26:125][137]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.01.17-00.18.26:125][137]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.17-00.18.26:125][137]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.17-00.18.26:125][137]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.17-00.18.26:125][137]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.17-00.18.26:125][137]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.17-00.18.26:125][137]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.17-00.18.26:125][137]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.17-00.18.26:125][137]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.17-00.18.26:125][137]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.17-00.18.26:126][137]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.17-00.18.26:126][137]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.17-00.18.26:127][137]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.17-00.18.26:147][137]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Razer BlackShark V2 Pro)
+[2024.01.17-00.18.26:147][137]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.17-00.18.26:147][137]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.17-00.18.26:147][137]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.17-00.18.26:148][137]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.01.17-00.18.26:148][137]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.01.17-00.18.26:149][137]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.01.17-00.18.26:149][137]LogInit: FAudioDevice initialized with ID 8.
+[2024.01.17-00.18.26:149][137]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.01.17-00.18.26:149][137]LogAudio: Display: Audio Device (ID: 8) registered with world 'ThirdPersonMap'.
+[2024.01.17-00.18.26:149][137]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.01.17-00.18.26:151][137]LogLoad: Game class is 'GM_BoneFireGame_C'
+[2024.01.17-00.18.26:155][137]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.16-19.18.26
+[2024.01.17-00.18.26:157][137]LogWorld: Bringing up level for play took: 0.005638
+[2024.01.17-00.18.26:161][137]LogBlueprintUserMessages: [BP_Player_C_0] Hello, event begin play
+[2024.01.17-00.18.26:161][137]PIE: Server logged in
+[2024.01.17-00.18.26:162][137]PIE: Play in editor total start time 0.097 seconds.
+[2024.01.17-00.18.31:158][539]LogBlueprintUserMessages: [BPSC_Enemy_SpectralWarden_C_UAID_00D86171851BE5CF01_1833586055] wakeup
+[2024.01.17-00.18.32:761][669]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] START
+[2024.01.17-00.18.32:761][669]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.18.32:761][669]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.18.33:432][720]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.18.33:432][720]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.18.33:432][720]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.33:512][726]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.18.33:512][726]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.18.33:512][726]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.33:512][726]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.18.33:618][734]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.18.33:618][734]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.33:618][734]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.33:618][734]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.18.36:789][971]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] START
+[2024.01.17-00.18.36:789][971]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_3_Montage
+[2024.01.17-00.18.36:789][971]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.36:789][971]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.36:789][971]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] BEFORE_END
+[2024.01.17-00.18.37:051][991]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_3_Montage
+[2024.01.17-00.18.37:051][991]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] BEFORE_END
+[2024.01.17-00.18.37:051][991]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.37:051][991]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.37:051][991]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.37:128][997]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.18.37:128][997]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.18.37:128][997]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.18.37:128][997]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.37:128][997]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.37:128][997]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.37:231][  5]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.18.37:231][  5]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.37:231][  5]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.37:231][  5]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.37:231][  5]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.18.39:105][143]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] START
+[2024.01.17-00.18.39:105][143]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_2_Montage
+[2024.01.17-00.18.39:105][143]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.39:105][143]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.39:105][143]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.39:105][143]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] BEFORE_END
+[2024.01.17-00.18.39:490][172]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_2_Montage
+[2024.01.17-00.18.39:490][172]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.39:490][172]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.39:490][172]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.39:490][172]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.39:490][172]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] BEFORE_END
+[2024.01.17-00.18.39:566][178]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.18.39:566][178]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.18.39:566][178]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.39:566][178]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.39:566][178]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.39:566][178]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.39:566][178]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.18.39:668][186]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.18.39:668][186]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.39:668][186]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.39:668][186]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.39:668][186]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.39:668][186]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.18.41:731][344]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] START
+[2024.01.17-00.18.41:731][344]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.18.41:731][344]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.41:731][344]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.41:731][344]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.41:731][344]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.41:731][344]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.18.41:854][354]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.18.41:854][354]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] FAIL AI MOVE TO
+[2024.01.17-00.18.41:854][354]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.41:854][354]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.41:854][354]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.41:854][354]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.41:854][354]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.18.41:854][354]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.41:854][354]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.41:854][354]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.41:854][354]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.41:854][354]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.18.42:008][366]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] FAIL AI MOVE TO
+[2024.01.17-00.18.42:008][366]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.42:008][366]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.42:008][366]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.42:008][366]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.45:793][663]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] START
+[2024.01.17-00.18.45:793][663]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_3_Montage
+[2024.01.17-00.18.45:793][663]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] BEFORE_END
+[2024.01.17-00.18.46:050][683]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.46:050][683]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.46:050][683]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.46:051][683]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.46:126][689]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] START
+[2024.01.17-00.18.46:126][689]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] FAIL AI MOVE TO
+[2024.01.17-00.18.46:126][689]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.46:126][689]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.46:126][689]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.46:126][689]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.46:126][689]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.18.46:126][689]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.46:126][689]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.46:126][689]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.46:126][689]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.46:126][689]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.18.46:298][702]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] FAIL AI MOVE TO
+[2024.01.17-00.18.46:298][702]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.46:298][702]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.46:298][702]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.46:298][702]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.50:733][ 47]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.50:733][ 47]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.50:733][ 47]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.50:733][ 47]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.51:550][113]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] START
+[2024.01.17-00.18.51:550][113]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_2_Montage
+[2024.01.17-00.18.51:550][113]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] BEFORE_END
+[2024.01.17-00.18.53:895][282]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_2_Montage
+[2024.01.17-00.18.53:895][282]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.53:895][282]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.53:895][282]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.53:895][282]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.53:895][282]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] BEFORE_END
+[2024.01.17-00.18.53:998][288]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.18.53:998][288]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.18.53:998][288]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.53:998][288]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.53:998][288]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.53:998][288]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.53:998][288]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.18.54:105][295]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.18.54:105][295]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.54:105][295]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.54:105][295]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.54:105][295]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.54:105][295]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.18.54:566][326]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] START
+[2024.01.17-00.18.54:566][326]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_3_Montage
+[2024.01.17-00.18.54:566][326]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] BEFORE_END
+[2024.01.17-00.18.54:566][326]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.54:566][326]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.54:566][326]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.54:566][326]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.54:737][338]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.18.54:737][338]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] FAIL AI MOVE TO
+[2024.01.17-00.18.54:737][338]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.54:737][338]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.54:737][338]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.54:737][338]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.54:737][338]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.18.54:737][338]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.18.54:737][338]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.54:737][338]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.54:737][338]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.54:737][338]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.54:853][347]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] FAIL AI MOVE TO
+[2024.01.17-00.18.54:854][347]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.54:854][347]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.54:854][347]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.54:854][347]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.56:601][478]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] START
+[2024.01.17-00.18.56:601][478]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.18.56:601][478]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.56:601][478]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.56:601][478]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.56:601][478]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.56:601][478]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.18.56:740][488]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.18.56:740][488]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] FAIL AI MOVE TO
+[2024.01.17-00.18.56:740][488]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.56:740][488]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.56:740][488]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.56:740][488]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.56:740][488]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.18.56:740][488]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.18.56:740][488]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.56:740][488]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.56:740][488]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.56:740][488]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.18.56:854][497]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] FAIL AI MOVE TO
+[2024.01.17-00.18.56:854][497]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.18.56:854][497]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.18.56:854][497]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.18.56:854][497]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.00:945][812]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.00:945][812]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.00:945][812]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.00:945][812]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.01:336][843]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] START
+[2024.01.17-00.19.01:336][843]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.19.01:337][843]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.19.01:641][868]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.19.01:641][868]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.01:641][868]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.01:641][868]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.01:641][868]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.01:641][868]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.19.01:717][874]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.19.01:717][874]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.19.01:717][874]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.01:717][874]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.01:717][874]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.01:717][874]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.01:717][874]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.19.01:828][883]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.19.01:828][883]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.01:828][883]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.01:828][883]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.01:828][883]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.01:828][883]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.19.03:783][ 41]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] START
+[2024.01.17-00.19.03:783][ 41]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_3_Montage
+[2024.01.17-00.19.03:783][ 41]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.03:783][ 41]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.03:783][ 41]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.03:783][ 41]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.03:783][ 41]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] BEFORE_END
+[2024.01.17-00.19.03:905][ 51]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.19.03:906][ 51]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] FAIL AI MOVE TO
+[2024.01.17-00.19.03:906][ 51]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.03:906][ 51]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.03:906][ 51]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.03:906][ 51]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.03:906][ 51]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.19.03:906][ 51]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.03:906][ 51]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.03:906][ 51]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.03:906][ 51]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.03:906][ 51]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.19.04:065][ 64]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] FAIL AI MOVE TO
+[2024.01.17-00.19.04:065][ 64]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.04:065][ 64]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.04:065][ 64]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.04:065][ 64]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.06:001][221]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] START
+[2024.01.17-00.19.06:001][221]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_2_Montage
+[2024.01.17-00.19.06:001][221]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.06:001][221]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.06:001][221]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.06:001][221]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.06:001][221]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] BEFORE_END
+[2024.01.17-00.19.06:097][229]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] START
+[2024.01.17-00.19.06:097][229]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] FAIL AI MOVE TO
+[2024.01.17-00.19.06:097][229]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.06:097][229]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.06:097][229]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.06:098][229]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.06:098][229]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.19.06:098][229]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.06:098][229]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.06:098][229]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.06:098][229]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.06:098][229]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.19.06:185][236]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.19.06:185][236]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] FAIL AI MOVE TO
+[2024.01.17-00.19.06:185][236]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.06:185][236]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.06:185][236]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.06:185][236]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.06:185][236]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.19.06:185][236]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.19.06:185][236]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.06:185][236]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.06:185][236]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.06:185][236]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.06:336][248]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] FAIL AI MOVE TO
+[2024.01.17-00.19.06:336][248]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.06:336][248]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.06:336][248]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.06:336][248]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.09:221][478]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] START
+[2024.01.17-00.19.09:221][478]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.19.09:221][478]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.09:221][478]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.09:221][478]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.09:221][478]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.09:221][478]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.19.09:382][491]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] FAIL AI MOVE TO
+[2024.01.17-00.19.09:382][491]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.09:382][491]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.09:382][491]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.09:382][491]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.11:814][690]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] START
+[2024.01.17-00.19.11:814][690]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_3_Montage
+[2024.01.17-00.19.11:814][690]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.11:814][690]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.11:814][690]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.11:814][690]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.11:814][690]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] BEFORE_END
+[2024.01.17-00.19.11:955][701]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] FAIL AI MOVE TO
+[2024.01.17-00.19.11:955][701]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.11:955][701]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.11:955][701]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.11:955][701]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.13:487][824]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] START
+[2024.01.17-00.19.13:487][824]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.19.13:488][824]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.13:488][824]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.13:488][824]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.13:488][824]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.13:488][824]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.19.13:615][833]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.19.13:615][833]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] FAIL AI MOVE TO
+[2024.01.17-00.19.13:615][833]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.13:615][833]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.13:615][833]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.13:615][833]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.13:615][833]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.19.13:615][833]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.13:615][833]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.13:615][833]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.13:615][833]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.13:615][833]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.19.13:732][842]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] FAIL AI MOVE TO
+[2024.01.17-00.19.13:732][842]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.13:732][842]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.13:732][842]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.13:732][842]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.16:522][ 64]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] START
+[2024.01.17-00.19.16:522][ 64]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.19.16:522][ 64]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.16:522][ 64]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.16:522][ 64]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.16:522][ 64]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.16:522][ 64]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.19.16:642][ 74]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] FAIL AI MOVE TO
+[2024.01.17-00.19.16:642][ 74]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.16:642][ 74]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.16:642][ 74]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.16:642][ 74]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.21:127][443]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.21:127][443]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.21:127][443]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.21:127][443]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.23:281][616]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] START
+[2024.01.17-00.19.23:281][616]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_2_Montage
+[2024.01.17-00.19.23:281][616]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] BEFORE_END
+[2024.01.17-00.19.24:786][737]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_2_Montage
+[2024.01.17-00.19.24:786][737]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.24:786][737]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.24:786][737]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.24:786][737]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.24:786][737]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] BEFORE_END
+[2024.01.17-00.19.24:874][744]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.19.24:874][744]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.19.24:874][744]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.24:874][744]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.24:874][744]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.24:874][744]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.24:874][744]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.19.25:022][756]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] START
+[2024.01.17-00.19.25:022][756]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] FAIL AI MOVE TO
+[2024.01.17-00.19.25:022][756]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.25:022][756]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.25:022][756]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.25:022][756]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.25:022][756]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_3_Montage
+[2024.01.17-00.19.25:022][756]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.25:022][756]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.25:022][756]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.25:022][756]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.25:022][756]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] BEFORE_END
+[2024.01.17-00.19.25:179][769]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] START
+[2024.01.17-00.19.25:179][769]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] FAIL AI MOVE TO
+[2024.01.17-00.19.25:179][769]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.25:179][769]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.25:179][769]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.25:179][769]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.25:180][769]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.19.25:180][769]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.19.25:180][769]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.25:180][769]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.25:180][769]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.25:180][769]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.25:306][779]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] FAIL AI MOVE TO
+[2024.01.17-00.19.25:306][779]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.25:306][779]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.25:306][779]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.25:306][779]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.29:787][137]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.29:787][137]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.29:787][137]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.29:787][137]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.31:493][276]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] START
+[2024.01.17-00.19.31:493][276]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.19.31:493][276]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.19.32:492][357]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.19.32:492][357]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.32:492][357]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.32:492][357]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.32:492][357]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.32:492][357]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.19.32:563][363]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.19.32:563][363]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.19.32:563][363]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.32:563][363]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.32:563][363]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.32:563][363]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.32:563][363]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.19.32:673][372]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.19.32:673][372]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.32:673][372]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.32:673][372]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.32:673][372]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.32:673][372]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.19.33:792][464]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] START
+[2024.01.17-00.19.33:792][464]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_3_Montage
+[2024.01.17-00.19.33:792][464]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.33:792][464]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.33:792][464]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.33:792][464]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.33:792][464]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] BEFORE_END
+[2024.01.17-00.19.33:916][474]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] FAIL AI MOVE TO
+[2024.01.17-00.19.33:916][474]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.33:916][474]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.33:916][474]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.33:916][474]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.37:493][765]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.37:493][765]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.37:493][765]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.37:493][765]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.39:181][901]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] START
+[2024.01.17-00.19.39:181][901]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_2_Montage
+[2024.01.17-00.19.39:181][901]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] BEFORE_END
+[2024.01.17-00.19.39:452][923]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_2_Montage
+[2024.01.17-00.19.39:452][923]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.39:452][923]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.39:452][923]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.39:452][923]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.39:452][923]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] BEFORE_END
+[2024.01.17-00.19.39:526][929]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.19.39:526][929]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.19.39:526][929]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.39:526][929]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.39:526][929]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.39:526][929]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.39:526][929]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.19.39:636][938]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.19.39:636][938]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.39:636][938]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.39:636][938]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.39:636][938]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.39:636][938]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.19.41:286][ 72]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] START
+[2024.01.17-00.19.41:287][ 72]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.19.41:287][ 72]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.19.41:287][ 72]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.41:287][ 72]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.41:287][ 72]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.41:287][ 72]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.41:376][ 78]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.19.41:376][ 78]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] FAIL AI MOVE TO
+[2024.01.17-00.19.41:377][ 78]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.41:377][ 78]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.41:377][ 78]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.41:377][ 78]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.41:377][ 78]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.19.41:377][ 78]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.41:377][ 78]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.41:377][ 78]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.41:377][ 78]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.41:377][ 78]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.19.41:577][ 93]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] FAIL AI MOVE TO
+[2024.01.17-00.19.41:577][ 93]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.41:577][ 93]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.41:577][ 93]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.41:577][ 93]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.42:015][129]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] START
+[2024.01.17-00.19.42:015][129]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_3_Montage
+[2024.01.17-00.19.42:015][129]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] BEFORE_END
+[2024.01.17-00.19.42:015][129]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.42:015][129]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.42:015][129]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.42:015][129]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.42:161][141]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] FAIL AI MOVE TO
+[2024.01.17-00.19.42:161][141]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.42:161][141]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.42:161][141]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.42:161][141]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.45:725][425]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.45:726][425]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.45:726][425]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.45:726][425]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.47:441][565]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] START
+[2024.01.17-00.19.47:441][565]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.19.47:441][565]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.19.48:013][612]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_4_Montage
+[2024.01.17-00.19.48:013][612]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.48:013][612]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.48:013][612]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.48:013][612]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.48:013][612]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] BEFORE_END
+[2024.01.17-00.19.48:099][619]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.19.48:099][619]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.19.48:099][619]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.48:099][619]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.48:099][619]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.48:099][619]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.48:099][619]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.19.48:209][628]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.19.48:209][628]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.48:209][628]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.48:209][628]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.48:209][628]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.48:209][628]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.19.50:930][848]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] START
+[2024.01.17-00.19.50:930][848]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_3_Montage
+[2024.01.17-00.19.50:930][848]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.50:930][848]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.50:930][848]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.50:930][848]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.50:930][848]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] BEFORE_END
+[2024.01.17-00.19.51:086][861]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.19.51:086][861]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] FAIL AI MOVE TO
+[2024.01.17-00.19.51:086][861]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.51:086][861]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.51:086][861]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.51:086][861]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.51:086][861]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.19.51:086][861]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.51:086][861]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.51:086][861]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.51:086][861]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.51:086][861]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.19.51:235][873]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] FAIL AI MOVE TO
+[2024.01.17-00.19.51:235][873]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.51:235][873]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.51:235][873]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.51:235][873]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.53:956][ 67]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] START
+[2024.01.17-00.19.53:956][ 67]LogBlueprintUserMessages: [BPC_Attacks] Spectral_Knight_Attack_2_Montage
+[2024.01.17-00.19.53:956][ 67]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.53:956][ 67]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.53:956][ 67]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.53:956][ 67]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.53:956][ 67]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] BEFORE_END
+[2024.01.17-00.19.54:158][ 79]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] START
+[2024.01.17-00.19.54:158][ 79]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] FAIL AI MOVE TO
+[2024.01.17-00.19.54:158][ 79]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.54:158][ 79]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.54:158][ 79]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.54:158][ 79]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.54:158][ 79]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.19.54:158][ 79]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.54:158][ 79]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.54:158][ 79]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.54:158][ 79]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.54:158][ 79]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.19.54:314][ 89]LogBlueprintUserMessages: [BPC_Attacks] ShortRange
+[2024.01.17-00.19.54:314][ 89]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] BEFORE_END
+[2024.01.17-00.19.54:314][ 89]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.54:314][ 89]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.54:314][ 89]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.54:314][ 89]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.55:622][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.17-00.19.55:622][190]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.17-00.19.55:622][190]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.17-00.19.55:622][190]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_1] END
+[2024.01.17-00.19.55:622][190]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_5] END
+[2024.01.17-00.19.55:622][190]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_2] END
+[2024.01.17-00.19.55:622][190]LogBlueprintUserMessages: [BTT_SpectralWardenAttacks_C_8] END
+[2024.01.17-00.19.55:622][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.17-00.19.55:622][190]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.17-00.19.55:625][190]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.17-00.19.55:630][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.17-00.19.55:645][190]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.17-00.19.55:645][190]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.01.17-00.19.55:645][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.01.17-00.19.55:647][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.01.17-00.19.55:649][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.17-00.19.55:653][190]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.01.17-00.19.55:706][191]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.01.17-00.20.18:730][718]LogAutomationController: Ignoring very large delta of 4.09 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.01.17-00.21.49:665][130]LogAutomationController: Ignoring very large delta of 2.37 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.01.17-00.23.54:231][191]LogSlateStyle: Warning: Missing Resource from 'NiagaraEditorStyle' Style: 'Unable to find Color 'NiagaraEditor.AssetColors.DataChannel'.'
+[2024.01.17-00.24.00:869][352]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.01.17-00.24.00:877][352]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.01.17-00.24.00:890][352]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.01.17-00.24.00:897][352]LogAutomationController: Ignoring very large delta of 4.58 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.01.17-00.24.00:910][353]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.01.17-00.24.06:570][910]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> W_BossHealthBar
+[2024.01.17-00.24.06:590][910]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/DamageSystem/W_BossHealthBar.
+[2024.01.17-00.24.06:591][910]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.01.17-00.24.08:696][ 82]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/DamageSystem/W_BossHealthBar.W_BossHealthBar
+[2024.01.17-00.24.08:710][ 82]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.24.08:710][ 82]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.17-00.24.08:716][ 82]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.24.08:716][ 82]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.17-00.24.08:721][ 82]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.01.17-00.24.08:968][ 82]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.01.17-00.24.08:973][ 82]LogSlate: Took 0.003613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.01.17-00.24.37:430][975]LogEditorTransaction: Undo Changed Anchors
+[2024.01.17-00.25.04:393][ 99]Cmd: TRANSACTION UNDO
+[2024.01.17-00.25.04:393][ 99]LogEditorTransaction: Undo Changed Anchors
+[2024.01.17-00.25.27:365][107]LogEditorTransaction: Undo Edit Right
+[2024.01.17-00.25.28:918][189]LogEditorTransaction: Undo Edit Right
+[2024.01.17-00.25.32:394][411]LogEditorTransaction: Undo Edit Left
+[2024.01.17-00.25.59:038][ 51]LogEditorTransaction: Undo Edit Right
+[2024.01.17-00.26.20:855][305]LogEditorTransaction: Undo Edit Right
+[2024.01.17-00.26.42:831][980]LogEditorTransaction: Undo Changed Anchors
+[2024.01.17-00.26.52:874][715]LogEditorTransaction: Undo Edit Right
+[2024.01.17-00.28.21:939][927]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.17-00.29.09:308][574]LogEditorTransaction: Undo Edit Draw As
+[2024.01.17-00.29.11:324][721]LogEditorTransaction: Undo Edit Draw As
+[2024.01.17-00.29.12:871][848]LogEditorTransaction: Undo Edit Percent
+[2024.01.17-00.29.14:116][926]LogEditorTransaction: Redo Edit Percent
+[2024.01.17-00.29.14:270][929]LogEditorTransaction: Redo Edit Draw As
+[2024.01.17-00.29.14:400][930]LogEditorTransaction: Redo Edit Draw As
+[2024.01.17-00.29.57:446][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.01.17-00.29.57:448][288]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.039
+[2024.01.17-00.29.57:448][288]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/DamageSystem/W_BossHealthBar] ([2] browsable assets)...
+[2024.01.17-00.29.57:450][288]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/DamageSystem/W_BossHealthBar.W_BossHealthBar]
+[2024.01.17-00.29.57:450][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/DamageSystem/W_BossHealthBar]
+[2024.01.17-00.29.57:453][288]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/DamageSystem/W_BossHealthBar_Auto1
+[2024.01.17-00.29.57:453][288]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/W_BossHealthBar_Auto1E8497E864AC051D944347885FCCF3021.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/Autosaves/Game/DamageSystem/W_BossHealthBar_Auto1.uasset'
+[2024.01.17-00.29.57:454][288]LogFileHelpers: Auto-saving content packages took 0.006
+[2024.01.17-00.29.59:935][517]BlueprintLog: New page: Compile W_BossHealthBar
+[2024.01.17-00.29.59:974][517]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.01.17-00.30.00:711][579]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.17-00.30.00:752][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DamageSystem/W_BossHealthBar" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/DamageSystem/W_BossHealthBar.uasset" SILENT=true
+[2024.01.17-00.30.00:754][579]LogSavePackage: Moving output files for package: /Game/DamageSystem/W_BossHealthBar
+[2024.01.17-00.30.00:754][579]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/W_BossHealthBar100F85C54F10DBFB9ECAF8BD844EB101.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/DamageSystem/W_BossHealthBar.uasset'
+[2024.01.17-00.30.00:757][579]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/DamageSystem/W_BossHealthBar.
+[2024.01.17-00.30.00:769][579]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 538 ms)
+[2024.01.17-00.30.00:770][579]AssetCheck: New page: Asset Save: W_BossHealthBar
+[2024.01.17-00.30.00:770][579]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/DamageSystem/W_BossHealthBar.W_BossHealthBar
+[2024.01.17-00.30.12:336][640]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/DamageSystem/W_HealthBar.W_HealthBar
+[2024.01.17-00.30.12:337][640]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.30.12:337][640]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.17-00.30.12:357][640]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.30.12:357][640]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.17-00.30.50:864][401]LogSlate: Took 0.004476 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.01.17-00.31.04:217][550]BlueprintLog: New page: Compile W_BossHealthBar
+[2024.01.17-00.31.04:248][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.01.17-00.31.04:780][589]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.17-00.31.04:812][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DamageSystem/W_BossHealthBar" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/DamageSystem/W_BossHealthBar.uasset" SILENT=true
+[2024.01.17-00.31.04:815][589]LogSavePackage: Moving output files for package: /Game/DamageSystem/W_BossHealthBar
+[2024.01.17-00.31.04:815][589]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/W_BossHealthBar011FC0DA4AF44DD0F03A4E97DEDC2893.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/DamageSystem/W_BossHealthBar.uasset'
+[2024.01.17-00.31.04:823][589]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 580 ms)
+[2024.01.17-00.31.04:824][589]AssetCheck: New page: Asset Save: W_BossHealthBar
+[2024.01.17-00.31.04:824][589]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/DamageSystem/W_BossHealthBar.W_BossHealthBar
+[2024.01.17-00.31.32:723][898]BlueprintLog: New page: Compile W_BossHealthBar
+[2024.01.17-00.31.32:748][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.01.17-00.31.33:432][954]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.17-00.31.33:463][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DamageSystem/W_BossHealthBar" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/DamageSystem/W_BossHealthBar.uasset" SILENT=true
+[2024.01.17-00.31.33:467][954]LogSavePackage: Moving output files for package: /Game/DamageSystem/W_BossHealthBar
+[2024.01.17-00.31.33:468][954]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/W_BossHealthBarA7815A86467DC29BDFB5B7BE1EDC55AB.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/DamageSystem/W_BossHealthBar.uasset'
+[2024.01.17-00.31.33:476][954]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 624 ms)
+[2024.01.17-00.31.33:477][954]AssetCheck: New page: Asset Save: W_BossHealthBar
+[2024.01.17-00.31.33:477][954]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/DamageSystem/W_BossHealthBar.W_BossHealthBar
+[2024.01.17-00.31.50:540][455]LogSlate: Window 'Delete Variable' being destroyed
+[2024.01.17-00.31.52:356][520]LogSlate: Window 'Delete Variable' being destroyed
+[2024.01.17-00.32.30:393][830]BlueprintLog: New page: Compile W_BossHealthBar
+[2024.01.17-00.32.30:418][830]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.17-00.32.30:896][863]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.17-00.32.30:933][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DamageSystem/W_BossHealthBar" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/DamageSystem/W_BossHealthBar.uasset" SILENT=true
+[2024.01.17-00.32.30:937][863]LogSavePackage: Moving output files for package: /Game/DamageSystem/W_BossHealthBar
+[2024.01.17-00.32.30:938][863]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/W_BossHealthBar4EFEE17D432AB8BF680190843BCABF57.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/DamageSystem/W_BossHealthBar.uasset'
+[2024.01.17-00.32.30:948][863]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 676 ms)
+[2024.01.17-00.32.30:950][863]AssetCheck: New page: Asset Save: W_BossHealthBar
+[2024.01.17-00.32.30:950][863]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/DamageSystem/W_BossHealthBar.W_BossHealthBar
+[2024.01.17-00.33.06:472][323]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/BPSC_Enemy_Boss.BPSC_Enemy_Boss
+[2024.01.17-00.33.06:473][323]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.33.06:473][323]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.17-00.33.06:635][323]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.33.06:635][323]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.33.13:986][970]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.01.17-00.33.13:986][970]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.17-00.33.14:005][970]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/BPSC_Enemy_Boss.BPSC_Enemy_Boss
+[2024.01.17-00.33.14:005][970]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.33.14:005][970]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.17-00.33.14:149][970]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.33.14:149][970]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.33.37:935][161]BlueprintLog: New page: Compile BPSC_Enemy_Boss
+[2024.01.17-00.33.37:950][161]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.33.37:950][161]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.33.37:953][161]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.33.37:953][161]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.33.37:955][161]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.33.37:955][161]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.33.37:957][161]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.33.37:957][161]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.33.37:958][161]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.33.37:959][161]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.33.37:960][161]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.33.37:960][161]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.33.37:989][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.01.17-00.33.37:995][161]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.33.37:995][161]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.33.38:008][161]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.33.38:008][161]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.33.38:660][207]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.17-00.33.38:691][207]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.33.38:697][207]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.33.38:697][207]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.33.38:734][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/BPSC_Enemy_Boss" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BPSC_Enemy_Boss.uasset" SILENT=true
+[2024.01.17-00.33.38:740][207]LogSavePackage: Moving output files for package: /Game/Characters/BPSC_Enemy_Boss
+[2024.01.17-00.33.38:740][207]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BPSC_Enemy_BossF4E5F0304CAC002D149C40A09AEF2B34.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BPSC_Enemy_Boss.uasset'
+[2024.01.17-00.33.38:748][207]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 765 ms)
+[2024.01.17-00.33.38:750][207]AssetCheck: New page: Asset Save: BPSC_Enemy_Boss
+[2024.01.17-00.33.38:750][207]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/BPSC_Enemy_Boss.BPSC_Enemy_Boss
+[2024.01.17-00.34.32:595][985]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.17-00.34.32:627][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/BPSC_Enemy_Boss" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BPSC_Enemy_Boss.uasset" SILENT=true
+[2024.01.17-00.34.32:632][985]LogSavePackage: Moving output files for package: /Game/Characters/BPSC_Enemy_Boss
+[2024.01.17-00.34.32:633][985]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BPSC_Enemy_Boss20DBBA464680162BE6E7A1A617AE0D58.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BPSC_Enemy_Boss.uasset'
+[2024.01.17-00.34.32:641][985]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 810 ms)
+[2024.01.17-00.34.32:641][985]AssetCheck: New page: Asset Save: BPSC_Enemy_Boss
+[2024.01.17-00.34.32:641][985]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/BPSC_Enemy_Boss.BPSC_Enemy_Boss
+[2024.01.17-00.34.43:755][756]LogBlueprint: Warning: [AssetLog] C:\Users\zoykz\Documents\Unreal Projects\Lords-of-The-Abyss\Content\Player_HUD.uasset: [Compiler] Could not find a variable named "CurrentStamina" in 'BP_Player_C'.
+Make sure 'BP_Player_C' has been compiled for  Get CurrentStamina
+[2024.01.17-00.34.43:755][756]LogBlueprint: Error: [AssetLog] C:\Users\zoykz\Documents\Unreal Projects\Lords-of-The-Abyss\Content\Player_HUD.uasset: [Compiler] The property associated with  Current Stamina  could not be found in '/Game/Player_HUD.Player_HUD_C'
+[2024.01.17-00.34.43:760][756]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Player_HUD.Player_HUD
+[2024.01.17-00.34.43:760][756]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.34.43:760][756]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.17-00.34.43:765][756]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.34.43:765][756]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.17-00.36.10:825][545]LogEditorTransaction: Undo Edit Top
+[2024.01.17-00.36.29:199][722]BlueprintLog: New page: Compile W_BossHealthBar
+[2024.01.17-00.36.29:223][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.01.17-00.36.30:126][766]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.17-00.36.30:159][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DamageSystem/W_BossHealthBar" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/DamageSystem/W_BossHealthBar.uasset" SILENT=true
+[2024.01.17-00.36.30:163][766]LogSavePackage: Moving output files for package: /Game/DamageSystem/W_BossHealthBar
+[2024.01.17-00.36.30:163][766]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/W_BossHealthBar40FCA36341F332AD7F442CBC6292037F.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/DamageSystem/W_BossHealthBar.uasset'
+[2024.01.17-00.36.30:173][766]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 857 ms)
+[2024.01.17-00.36.30:175][766]AssetCheck: New page: Asset Save: W_BossHealthBar
+[2024.01.17-00.36.30:175][766]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/DamageSystem/W_BossHealthBar.W_BossHealthBar
+[2024.01.17-00.36.53:660][797]BlueprintLog: New page: Compile Player_HUD
+[2024.01.17-00.36.53:665][797]LogBlueprint: Warning: [AssetLog] C:\Users\zoykz\Documents\Unreal Projects\Lords-of-The-Abyss\Content\Player_HUD.uasset: [Compiler] Could not find a variable named "CurrentStamina" in 'BP_Player_C'.
+Make sure 'BP_Player_C' has been compiled for  Get CurrentStamina
+[2024.01.17-00.36.53:666][797]LogBlueprint: Error: [AssetLog] C:\Users\zoykz\Documents\Unreal Projects\Lords-of-The-Abyss\Content\Player_HUD.uasset: [Compiler] The property associated with  Current Stamina  could not be found in '/Game/Player_HUD.Player_HUD_C'
+[2024.01.17-00.36.53:692][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.01.17-00.38.10:599][557]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.17-00.38.10:636][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Player_HUD.uasset" SILENT=true
+[2024.01.17-00.38.10:643][557]LogSavePackage: Moving output files for package: /Game/Player_HUD
+[2024.01.17-00.38.10:644][557]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/Player_HUDB191964B45A804E8836D719A28D3B971.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Player_HUD.uasset'
+[2024.01.17-00.38.10:652][557]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 910 ms)
+[2024.01.17-00.38.10:652][557]AssetCheck: New page: Asset Save: Player_HUD
+[2024.01.17-00.38.10:652][557]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player_HUD.Player_HUD
+[2024.01.17-00.41.51:098][997]BlueprintLog: New page: Compile Player_HUD
+[2024.01.17-00.41.51:128][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.01.17-00.41.52:622][111]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.17-00.41.52:654][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Player_HUD.uasset" SILENT=true
+[2024.01.17-00.41.52:661][111]LogSavePackage: Moving output files for package: /Game/Player_HUD
+[2024.01.17-00.41.52:661][111]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/Player_HUD7C1AA748430CE5DB394CCA93C7C1163F.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Player_HUD.uasset'
+[2024.01.17-00.41.52:669][111]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 958 ms)
+[2024.01.17-00.41.52:671][111]AssetCheck: New page: Asset Save: Player_HUD
+[2024.01.17-00.41.52:671][111]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player_HUD.Player_HUD
+[2024.01.17-00.42.25:623][904]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.17-00.42.25:658][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Player_HUD.uasset" SILENT=true
+[2024.01.17-00.42.25:664][904]LogSavePackage: Moving output files for package: /Game/Player_HUD
+[2024.01.17-00.42.25:665][904]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/Player_HUD1203A7344D8B533332EE74A28CF35E61.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Player_HUD.uasset'
+[2024.01.17-00.42.25:675][904]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 1.01 sec)
+[2024.01.17-00.42.25:676][904]AssetCheck: New page: Asset Save: Player_HUD
+[2024.01.17-00.42.25:676][904]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player_HUD.Player_HUD
+[2024.01.17-00.44.19:014][836]LogEditorTransaction: Undo Edit Left
+[2024.01.17-00.44.46:486][567]BlueprintLog: New page: Compile Player_HUD
+[2024.01.17-00.44.46:517][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.17-00.45.36:417][585]LogEditorTransaction: Undo Edit Bottom
+[2024.01.17-00.46.14:818][113]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.01.17-00.46.14:820][113]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.019
+[2024.01.17-00.46.14:820][113]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Player_HUD] ([2] browsable assets)...
+[2024.01.17-00.46.14:824][113]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Player_HUD.Player_HUD]
+[2024.01.17-00.46.14:824][113]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player_HUD]
+[2024.01.17-00.46.14:824][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/Autosaves/Game/Player_HUD_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2024.01.17-00.46.14:830][113]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player_HUD_Auto2
+[2024.01.17-00.46.14:830][113]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/Player_HUD_Auto2FCDF135644FD7FB8997B25ADEF6850C0.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/Autosaves/Game/Player_HUD_Auto2.uasset'
+[2024.01.17-00.46.14:831][113]LogFileHelpers: Auto-saving content packages took 0.010
+[2024.01.17-00.47.26:658][987]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.01.17-00.47.28:016][ 60]LogSlate: Took 0.006373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.01.17-00.47.59:246][493]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.01.17-00.47.59:669][501]LogEditorTransaction: Undo Edit Right
+[2024.01.17-00.48.00:838][570]LogEditorTransaction: Redo Edit Right
+[2024.01.17-00.48.12:017][242]BlueprintLog: New page: Compile Player_HUD
+[2024.01.17-00.48.12:050][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.01.17-00.48.31:093][743]LogEditorTransaction: Undo Remove Widget
+[2024.01.17-00.49.57:802][785]BlueprintLog: New page: Compile BPSC_Enemy_Boss
+[2024.01.17-00.49.57:842][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.49.57:842][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.49.57:844][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.49.57:844][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.49.57:846][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.49.57:846][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.49.57:848][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.49.57:848][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.49.57:850][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.49.57:850][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.49.57:852][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.49.57:852][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.49.57:854][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.49.57:854][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.49.57:881][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.01.17-00.49.57:902][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.49.57:903][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.49.57:915][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.49.57:915][785]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.08:380][256]LogEditorTransaction: Undo Move Node
+[2024.01.17-00.50.09:524][324]LogEditorTransaction: Undo Promote To Variable
+[2024.01.17-00.50.25:575][362]BlueprintLog: New page: Compile BPSC_Enemy_Boss
+[2024.01.17-00.50.25:593][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.25:593][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.25:595][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.25:595][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.25:597][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.25:597][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.25:598][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.25:598][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.25:601][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.25:601][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.25:603][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.25:603][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.25:605][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.25:605][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.25:633][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.17-00.50.25:641][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.25:641][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.25:655][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.25:655][362]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.35:154][882]LogEditorTransaction: Undo Add Node
+[2024.01.17-00.50.37:039][ 16]LogEditorTransaction: Redo Add Node
+[2024.01.17-00.50.43:186][483]BlueprintLog: New page: Compile BPSC_Enemy_Boss
+[2024.01.17-00.50.43:204][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.43:204][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.43:205][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.43:205][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.43:208][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.43:208][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.43:209][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.43:209][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.43:212][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.43:212][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.43:213][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.43:213][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.43:216][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.43:216][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.43:242][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.01.17-00.50.43:250][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.43:250][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.50.43:263][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.50.43:263][483]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.47:221][697]BlueprintLog: New page: Compile BPSC_Enemy_Boss
+[2024.01.17-00.51.47:227][697]LogBlueprint: Error: [AssetLog] C:\Users\zoykz\Documents\Unreal Projects\Lords-of-The-Abyss\Content\Characters\BPSC_Enemy_Boss.uasset: [Compiler] This blueprint (self) is not a W_BossHealthBar_C, therefore ' Target ' must have a connection.
+[2024.01.17-00.51.47:240][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.47:240][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.47:241][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.47:241][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.47:243][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.47:243][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.47:244][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.47:244][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.47:246][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.47:246][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.47:247][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.47:247][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.47:249][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.47:249][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.47:277][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.01.17-00.51.47:282][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.47:282][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.47:293][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.47:294][697]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.55:893][ 27]BlueprintLog: New page: Compile BPSC_Enemy_Boss
+[2024.01.17-00.51.55:911][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.55:911][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.55:912][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.55:912][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.55:915][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.55:915][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.55:917][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.55:917][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.55:919][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.55:919][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.55:920][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.55:920][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.55:922][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.55:922][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.55:948][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.01.17-00.51.55:956][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.55:956][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.55:970][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.01.17-00.51.55:970][ 27]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Bosses/SpectralWarden/SpectralWarden_SM.SpectralWarden_SM]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.01.17-00.51.56:786][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.17-00.51.56:850][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/BPSC_Enemy_Boss" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BPSC_Enemy_Boss.uasset" SILENT=true
+[2024.01.17-00.51.56:856][ 70]LogSavePackage: Moving output files for package: /Game/Characters/BPSC_Enemy_Boss
+[2024.01.17-00.51.56:856][ 70]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/BPSC_Enemy_Boss9FD9D13F44C3BDEE16AD14B7883C6F0B.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BPSC_Enemy_Boss.uasset'
+[2024.01.17-00.51.56:866][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 1.09 sec)
+[2024.01.17-00.51.56:867][ 70]AssetCheck: New page: Asset Save: BPSC_Enemy_Boss
+[2024.01.17-00.51.56:867][ 70]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/BPSC_Enemy_Boss.BPSC_Enemy_Boss
+[2024.01.17-00.53.26:285][515]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Ai/AIC_Enemy_Base.AIC_Enemy_Base
+[2024.01.17-00.53.26:286][515]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.53.26:286][515]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.17-00.55.43:760][ 25]LogContentBrowser: Deferred new asset file creation: AIC_Enemy_Base_Child
+[2024.01.17-00.55.43:788][ 25]LogContentBrowser: Creating deferred item: AIC_Enemy_Base_Child
+[2024.01.17-00.55.43:825][ 26]LogContentBrowser: Renaming the item being created (Deferred Item: AIC_Enemy_Base_Child).
+[2024.01.17-00.55.50:632][604]LogContentBrowser: Attempting asset rename: AIC_Enemy_Base_Child -> AIC_Enemy_Boss
+[2024.01.17-00.55.50:638][604]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Characters/Ai/AIC_Enemy_Boss.
+[2024.01.17-00.55.50:638][604]LogContentBrowser: End creating deferred item AIC_Enemy_Base_Child
+[2024.01.17-00.55.52:163][723]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Ai/AIC_Enemy_Boss.AIC_Enemy_Boss
+[2024.01.17-00.55.52:163][723]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.55.52:163][723]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.17-00.55.52:369][723]LogViewport: Scene viewport resized to 1245x641, mode Windowed.
+[2024.01.17-00.56.29:609][641]LogEditorTransaction: Undo Add Node
+[2024.01.17-00.56.41:030][  4]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.17-00.56.41:100][  5]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.56.41:262][  6]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.56.41:268][  6]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_31:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_0
+	Function /Game/Characters/Bosses/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0289
+[2024.01.17-00.56.41:268][  6]LogScript: Warning: Accessed None trying to read property Character
+	ABP_SpectralWarden_C /Engine/Transient.World_31:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_0
+	Function /Game/Characters/Bosses/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:011A
+[2024.01.17-00.56.41:350][ 10]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.56.41:402][ 11]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.56.41:427][ 12]LogShaderCompilers: Display: ================================================
+[2024.01.17-00.56.41:427][ 12]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.17-00.56.41:427][ 12]LogShaderCompilers: Display: Total job queries 22, among them cache hits 6 (27.27%)
+[2024.01.17-00.56.41:427][ 12]LogShaderCompilers: Display: Tracking 16 distinct input hashes that result in 13 distinct outputs (81.25%)
+[2024.01.17-00.56.41:427][ 12]LogShaderCompilers: Display: RAM used: 369.50 KiB of 3.20 GiB budget. Usage: 0.01%
+[2024.01.17-00.56.41:427][ 12]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.17-00.56.41:427][ 12]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.01.17-00.56.41:427][ 12]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.01.17-00.56.41:427][ 12]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.01.17-00.56.41:427][ 12]LogShaderCompilers: Display: ================================================
+[2024.01.17-00.56.41:452][ 13]LogScript: Warning: Accessed None trying to read property Character Movement Component
+	ABP_SpectralWarden_C /Engine/Transient.World_31:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_1
+	Function /Game/Characters/Bosses/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:0289
+[2024.01.17-00.56.41:452][ 13]LogScript: Warning: Accessed None trying to read property Character
+	ABP_SpectralWarden_C /Engine/Transient.World_31:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_SpectralWarden_C_1
+	Function /Game/Characters/Bosses/SpectralWarden/ABP_SpectralWarden.ABP_SpectralWarden_C:ExecuteUbergraph_ABP_SpectralWarden:011A
+[2024.01.17-00.56.42:836][117]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.17-00.56.56:872][168]BlueprintLog: New page: Compile AIC_Enemy_Boss
+[2024.01.17-00.56.56:902][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.01.17-00.56.57:687][225]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.17-00.56.57:718][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Ai/AIC_Enemy_Boss" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/AIC_Enemy_Boss.uasset" SILENT=true
+[2024.01.17-00.56.57:722][225]LogSavePackage: Moving output files for package: /Game/Characters/Ai/AIC_Enemy_Boss
+[2024.01.17-00.56.57:722][225]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/AIC_Enemy_BossDEC8ECFE4C8C38AA8126FAACD958743D.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/AIC_Enemy_Boss.uasset'
+[2024.01.17-00.56.57:722][225]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Characters/Ai/AIC_Enemy_Boss.
+[2024.01.17-00.56.57:732][225]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 1.13 sec)
+[2024.01.17-00.56.57:733][225]AssetCheck: New page: Asset Save: AIC_Enemy_Boss
+[2024.01.17-00.56.57:733][225]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Ai/AIC_Enemy_Boss.AIC_Enemy_Boss
+[2024.01.17-00.57.46:095][342]BlueprintLog: New page: Compile AIC_Enemy_Boss
+[2024.01.17-00.57.46:125][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.17-00.57.57:054][928]BlueprintLog: New page: Compile AIC_Enemy_Boss
+[2024.01.17-00.57.57:082][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.01.17-00.57.57:990][995]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.17-00.57.58:019][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Ai/AIC_Enemy_Boss" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/AIC_Enemy_Boss.uasset" SILENT=true
+[2024.01.17-00.57.58:024][995]LogSavePackage: Moving output files for package: /Game/Characters/Ai/AIC_Enemy_Boss
+[2024.01.17-00.57.58:024][995]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/AIC_Enemy_Boss6FC5A3E142E2EFDBA0D322AA393EEBA3.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/AIC_Enemy_Boss.uasset'
+[2024.01.17-00.57.58:032][995]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 1.17 sec)
+[2024.01.17-00.57.58:034][995]AssetCheck: New page: Asset Save: AIC_Enemy_Boss
+[2024.01.17-00.57.58:034][995]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Ai/AIC_Enemy_Boss.AIC_Enemy_Boss
+[2024.01.17-00.58.54:121][249]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.01.17-00.58.54:123][249]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.022
+[2024.01.17-00.58.54:123][249]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Player_HUD] ([2] browsable assets)...
+[2024.01.17-00.58.54:126][249]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Player_HUD.Player_HUD]
+[2024.01.17-00.58.54:126][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player_HUD]
+[2024.01.17-00.58.54:126][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/Autosaves/Game/Player_HUD_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2024.01.17-00.58.54:134][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player_HUD_Auto3
+[2024.01.17-00.58.54:134][249]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/Player_HUD_Auto3C7D2D16A4A4364E702F81B8CA90B9282.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/Autosaves/Game/Player_HUD_Auto3.uasset'
+[2024.01.17-00.58.54:135][249]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Ai/AIC_Enemy_Boss] ([2] browsable assets)...
+[2024.01.17-00.58.54:135][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Ai/AIC_Enemy_Boss]
+[2024.01.17-00.58.54:140][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Ai/AIC_Enemy_Boss_Auto3
+[2024.01.17-00.58.54:140][249]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/AIC_Enemy_Boss_Auto38B541E924DDCAD34E6340889121669B0.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/Autosaves/Game/Characters/Ai/AIC_Enemy_Boss_Auto3.uasset'
+[2024.01.17-00.58.54:140][249]LogFileHelpers: Auto-saving content packages took 0.018
+[2024.01.17-01.01.48:904][194]BlueprintLog: New page: Compile AIC_Enemy_Boss
+[2024.01.17-01.01.48:939][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.01.17-01.01.49:896][257]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.17-01.01.49:927][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Ai/AIC_Enemy_Boss" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/AIC_Enemy_Boss.uasset" SILENT=true
+[2024.01.17-01.01.49:931][257]LogSavePackage: Moving output files for package: /Game/Characters/Ai/AIC_Enemy_Boss
+[2024.01.17-01.01.49:932][257]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/AIC_Enemy_Boss845BECD746D74E2AE4F596AFB3D8B67B.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/AIC_Enemy_Boss.uasset'
+[2024.01.17-01.01.49:942][257]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 1.22 sec)
+[2024.01.17-01.01.49:944][257]AssetCheck: New page: Asset Save: AIC_Enemy_Boss
+[2024.01.17-01.01.49:944][257]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Ai/AIC_Enemy_Boss.AIC_Enemy_Boss
+[2024.01.17-01.03.33:694][661]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.17-01.03.33:727][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Ai/AIC_Enemy_Boss" FILE="C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/AIC_Enemy_Boss.uasset" SILENT=true
+[2024.01.17-01.03.33:731][661]LogSavePackage: Moving output files for package: /Game/Characters/Ai/AIC_Enemy_Boss
+[2024.01.17-01.03.33:732][661]LogSavePackage: Moving 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Saved/AIC_Enemy_Boss501F39194B07FC6705764BAD12D31873.tmp' to 'C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/AIC_Enemy_Boss.uasset'
+[2024.01.17-01.03.33:740][661]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 1.27 sec)
+[2024.01.17-01.03.33:741][661]AssetCheck: New page: Asset Save: AIC_Enemy_Boss
+[2024.01.17-01.03.33:741][661]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Ai/AIC_Enemy_Boss.AIC_Enemy_Boss
