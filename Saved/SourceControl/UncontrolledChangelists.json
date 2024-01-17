@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/Characters/Player/BP_Player.uasset",
+				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/Characters/Lantern/BP_Lantern.uasset",
+				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/Characters/Lantern/BP_LanternCompanion.uasset",
+				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/Characters/Lantern/BP_LanternProjectile.uasset",
+				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/LX/GCSMGRMQLWPC6G8C359413.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Player/BP_Player.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Bosses/SpectralWarden/Animations/Montages/Spectral_Warden_Attack1-1.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/AIC_Enemy_Boss.uasset",
