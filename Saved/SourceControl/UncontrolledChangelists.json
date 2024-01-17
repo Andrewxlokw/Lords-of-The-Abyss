@@ -8,7 +8,25 @@
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Player/BP_Player.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Bosses/SpectralWarden/Animations/Montages/Spectral_Warden_Attack1-1.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Player_HUD.uasset",
-				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BPSC_Enemy_Boss.uasset"
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BPSC_Enemy_Boss.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/AIC_Enemy_Boss.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/DamageSystem/Player_HUD.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Eliana/LevelTesting/Meshes/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/DamageSystem/Health_Bar.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Health_Bar.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Sounds/Goblins_Full_Loop.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Goblins_Full_Loop.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/OptimusPrinceps_Font.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Fonts/OptimusPrinceps.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/OptimusPrinceps.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/DamageSystem/W_BossHealthBar.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Fonts/OptimusPrinceps_Font.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BPSC_Enemy_SpectralWarden.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Bosses/BPSC_Enemy_Boss.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Bosses/BPSC_Enemy_SpectralWarden.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Bosses/SpectralWarden/BPSC_Enemy_SpectralWarden.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/Tasks/BTT_SpectralWardenAttacks.uasset"
 			]
 		}
 	]
