@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Eliana/OneDrive/Documents/GitHub/Lords-of-The-Abyss/Content/Eliana/LevelTesting/Level_01.umap",
+				"C:/Users/Eliana/OneDrive/Documents/GitHub/Lords-of-The-Abyss/Content/Eliana/LevelTesting/_GENERATED/Eliana/Box_72EEB09C.uasset",
+				"C:/Users/Eliana/OneDrive/Documents/GitHub/Lords-of-The-Abyss/Content/Eliana/LevelTesting/levelMeshBlocks/envFull_Cylinder.uasset",
+				"C:/Users/Eliana/OneDrive/Documents/GitHub/Lords-of-The-Abyss/Content/EuropeanHornbeam/Materials/SimpleWind/MI_EuropeanHornbeam_TwoSided.uasset",
+				"C:/Users/Eliana/OneDrive/Documents/GitHub/Lords-of-The-Abyss/Content/Eliana/LevelTesting/_GENERATED/Eliana/Torus_4F826C13.uasset",
 				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/Characters/Player/BP_Player.uasset",
 				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/Characters/Lantern/BP_Lantern.uasset",
 				"D:/Unreal_projects/Capstone/Lords-of-The-Abyss/Content/Characters/Lantern/BP_LanternCompanion.uasset",
