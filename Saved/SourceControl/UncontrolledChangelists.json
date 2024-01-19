@@ -1,0 +1,21 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Player/BP_Player.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/IJ/2LBS3I0YN7ZVNR1ZCM4KHB.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/AIC_Enemy_Boss.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Lantern/BP_LanternCompanion.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Bosses/BPSC_Enemy_Boss.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Bosses/SpectralWarden/BPSC_Enemy_SpectralWarden.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Animations/Melee/sword-shield-hit_Montage.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Eliana/LevelTesting/Level_01.umap"
+			]
+		}
+	]
+}
