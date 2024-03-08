@@ -7,7 +7,6 @@
 			"files": [
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Player/BP_Player.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset",
-				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/IJ/2LBS3I0YN7ZVNR1ZCM4KHB.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/AIC_Enemy_Boss.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Lantern/BP_LanternCompanion.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Bosses/BPSC_Enemy_Boss.uasset",
@@ -224,6 +223,10 @@
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/UE/Stuff/Maps/BossyEnemyPreviewMap.umap",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Dylan/Tree.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/IA/HKHHCIPHPZV8EEBGBOM2RP.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/UI/Player_HUD2.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/DamageSystem/W_BossHealthBar.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/UI/Player_HUD.uasset",
+				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/IJ/2LBS3I0YN7ZVNR1ZCM4KHB.uasset",
 				"D:/Epic Games/UE_5.3/UE_5.3/Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.uasset",
 				"C:/Users/Eliana/OneDrive/Documents/GitHub/Lords-of-The-Abyss/Content/Levels/MainLevel.umap",
 				"C:/Users/Eliana/OneDrive/Documents/GitHub/Lords-of-The-Abyss/Content/Eliana/LevelTesting/TestLevel_01.umap",
