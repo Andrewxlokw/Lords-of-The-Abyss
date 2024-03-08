@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Content/Levels/MainLevel.umap",
+				"C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Content/Attacks/BPC_Attacks.uasset",
+				"C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Content/Characters/Player/BP_Player.uasset",
+				"C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Content/VFX/Light/light_latern_material2.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Player/BP_Player.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/BP_Enemy_Base.uasset",
 				"C:/Users/zoykz/Documents/Unreal Projects/Lords-of-The-Abyss/Content/Characters/Ai/AIC_Enemy_Boss.uasset",
