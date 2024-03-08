@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\nightly20.0cmake\\dev\\engine\\unreal\\5.3\\engine\\plugins\\fx\\houdininiagara\\intermediate\\build\\win64\\unrealeditor\\inc\\houdininiagaraeditor\\uht\\houdininiagaraeditor.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\nightly20.0cmake\\dev\\engine\\unreal\\5.3\\engine\\intermediate\\build\\win64\\x64\\houdiniengineprojecteditor\\development\\unrealed\\sharedpch.unrealed.cpp17.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\nightly20.0cmake\\dev\\engine\\unreal\\5.3\\engine\\plugins\\fx\\houdininiagara\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\houdininiagaraeditor\\definitions.houdininiagaraeditor.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
