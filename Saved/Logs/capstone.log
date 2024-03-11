@@ -4738,3 +4738,267 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2024.03.11-03.03.59:676][835]AssetCheck: New page: Asset Save: menu
 [2024.03.11-03.03.59:676][835]LogContentValidation: Display: Validating /Script/Engine.World /Game/Mainmenu/menu.menu
 [2024.03.11-03.04.00:973][908]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/VFX/NewMap123 does not exist, will not scan.
+[2024.03.11-03.07.04:998][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.03.11-03.07.07:167][612]LogSlate: Window 'Save Content' being destroyed
+[2024.03.11-03.07.07:181][612]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-03.07.07:403][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Player/BP_Player" FILE="C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Content/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-03.07.07:497][612]LogSavePackage: Moving output files for package: /Game/Characters/Player/BP_Player
+[2024.03.11-03.07.07:498][612]LogSavePackage: Moving 'C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Saved/BP_Player58D0660F46D44DC254895CA61331CEAD.tmp' to 'C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Content/Characters/Player/BP_Player.uasset'
+[2024.03.11-03.07.07:499][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mainmenu/menu_button" FILE="C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Content/Mainmenu/menu_button.uasset" SILENT=true
+[2024.03.11-03.07.07:514][612]LogSavePackage: Moving output files for package: /Game/Mainmenu/menu_button
+[2024.03.11-03.07.07:515][612]LogSavePackage: Moving 'C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Saved/menu_button08232F1B4ADA13BA6C5086AD3FB5C677.tmp' to 'C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Content/Mainmenu/menu_button.uasset'
+[2024.03.11-03.07.07:524][612]LogFileHelpers: InternalPromptForCheckoutAndSave took 343 ms (total: 1.84 sec)
+[2024.03.11-03.07.07:940][612]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-03.07.08:260][612]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/MainLevel.MainLevel
+[2024.03.11-03.07.08:261][612]Cmd: MAP LOAD FILE="C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Content/Levels/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.11-03.07.08:261][612]LightingResults: New page: Lighting Build
+[2024.03.11-03.07.08:261][612]LoadErrors: New page: Loading map: MainLevel.umap
+[2024.03.11-03.07.08:296][612]LogWorld: UWorld::CleanupWorld for menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-03.07.08:296][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-03.07.08:296][612]MapCheck: New page: Map Check
+[2024.03.11-03.07.08:296][612]LightingResults: New page: Lighting Build
+[2024.03.11-03.07.08:341][612]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.11-03.07.08:348][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.03.11-03.07.08:376][612]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-03.07.08:388][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-03.07.08:588][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.11-03.07.08:621][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.03.11-03.07.09:131][612]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainLevel'.
+[2024.03.11-03.07.09:131][612]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-03.07.09:131][612]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-03.07.09:132][612]LogAIModule: Creating AISystem for world MainLevel
+[2024.03.11-03.07.09:984][612]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.11-03.07.10:246][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.03.11-03.07.10:263][612]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.11-03.07.10:263][612]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.313ms to complete.
+[2024.03.11-03.07.10:266][612]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2024.03.11-03.07.10:467][612]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.200816s
+[2024.03.11-03.07.10:470][612]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 2.209413s (0.209413s overbudget)
+[2024.03.11-03.07.10:488][612]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.11-03.07.10:488][612]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Player/BP_Player.BP_Player
+[2024.03.11-03.07.10:488][612]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Mainmenu/menu_button.menu_button
+[2024.03.11-03.07.10:618][612]LogAutomationController: Ignoring very large delta of 5.64 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.11-03.07.10:948][615]LogShaderCompilers: Display: ================================================
+[2024.03.11-03.07.10:948][615]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.11-03.07.10:948][615]LogShaderCompilers: Display: Total job queries 701, among them cache hits 137 (19.54%)
+[2024.03.11-03.07.10:948][615]LogShaderCompilers: Display: Tracking 564 distinct input hashes that result in 393 distinct outputs (69.68%)
+[2024.03.11-03.07.10:948][615]LogShaderCompilers: Display: RAM used: 14.57 MiB of 3.20 GiB budget. Usage: 0.44%
+[2024.03.11-03.07.10:948][615]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.11-03.07.10:948][615]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.03.11-03.07.10:948][615]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.03.11-03.07.10:948][615]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.03.11-03.07.10:948][615]LogShaderCompilers: Display: ================================================
+[2024.03.11-03.07.11:439][622]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2024.03.11-03.07.11:439][622]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2024.03.11-03.07.11:439][622]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2024.03.11-03.07.12:079][656]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2024.03.11-03.07.12:199][663]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2024.03.11-03.07.12:323][670]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2024.03.11-03.07.12:910][705]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2024.03.11-03.07.13:031][712]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2024.03.11-03.07.13:225][723]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.03.11-03.07.13:233][723]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/MainLevel.MainLevel
+[2024.03.11-03.07.13:234][723]Cmd: MAP LOAD FILE="C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Content/Levels/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.11-03.07.13:234][723]LightingResults: New page: Lighting Build
+[2024.03.11-03.07.13:234][723]LoadErrors: New page: Loading map: MainLevel.umap
+[2024.03.11-03.07.13:297][723]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-03.07.13:298][723]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-03.07.13:299][723]MapCheck: New page: Map Check
+[2024.03.11-03.07.13:299][723]LightingResults: New page: Lighting Build
+[2024.03.11-03.07.13:310][723]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.11-03.07.13:360][723]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.03.11-03.07.13:638][723]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainLevel'.
+[2024.03.11-03.07.13:638][723]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-03.07.13:639][723]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-03.07.13:639][723]LogAIModule: Creating AISystem for world MainLevel
+[2024.03.11-03.07.14:263][723]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.11-03.07.14:411][723]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.03.11-03.07.14:420][723]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.11-03.07.14:421][723]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.356ms to complete.
+[2024.03.11-03.07.15:233][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.03.11-03.07.15:242][744]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/MainLevel.MainLevel
+[2024.03.11-03.07.15:243][744]Cmd: MAP LOAD FILE="C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Content/Levels/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.11-03.07.15:243][744]LightingResults: New page: Lighting Build
+[2024.03.11-03.07.15:243][744]LoadErrors: New page: Loading map: MainLevel.umap
+[2024.03.11-03.07.15:304][744]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-03.07.15:305][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-03.07.15:305][744]MapCheck: New page: Map Check
+[2024.03.11-03.07.15:305][744]LightingResults: New page: Lighting Build
+[2024.03.11-03.07.15:336][744]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.11-03.07.15:368][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.03.11-03.07.15:633][744]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainLevel'.
+[2024.03.11-03.07.15:634][744]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-03.07.15:634][744]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-03.07.15:634][744]LogAIModule: Creating AISystem for world MainLevel
+[2024.03.11-03.07.16:270][744]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.11-03.07.16:416][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.03.11-03.07.16:426][744]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.11-03.07.16:426][744]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.349ms to complete.
+[2024.03.11-03.07.16:448][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.03.11-03.07.16:452][744]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/MainLevel.MainLevel
+[2024.03.11-03.07.16:453][744]Cmd: MAP LOAD FILE="C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Content/Levels/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.11-03.07.16:453][744]LightingResults: New page: Lighting Build
+[2024.03.11-03.07.16:453][744]LoadErrors: New page: Loading map: MainLevel.umap
+[2024.03.11-03.07.16:518][744]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-03.07.16:519][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-03.07.16:519][744]MapCheck: New page: Map Check
+[2024.03.11-03.07.16:520][744]LightingResults: New page: Lighting Build
+[2024.03.11-03.07.16:551][744]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.11-03.07.16:579][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.03.11-03.07.16:875][744]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainLevel'.
+[2024.03.11-03.07.16:875][744]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-03.07.16:875][744]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-03.07.16:876][744]LogAIModule: Creating AISystem for world MainLevel
+[2024.03.11-03.07.17:546][744]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.11-03.07.17:699][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.03.11-03.07.17:708][744]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.11-03.07.17:708][744]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.333ms to complete.
+[2024.03.11-03.07.17:873][744]LogAutomationController: Ignoring very large delta of 2.85 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.11-03.07.19:102][797]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2024.03.11-03.07.19:881][842]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.11-03.07.19:892][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.11-03.07.19:892][842]PIE: New page: PIE session: MainLevel (Mar 10, 2024, 7:07:19 PM)
+[2024.03.11-03.07.19:892][842]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2024.03.11-03.07.20:115][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.222531s)
+[2024.03.11-03.07.20:115][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.222566s)
+[2024.03.11-03.07.20:126][842]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.03.11-03.07.20:134][842]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-03.07.20:134][842]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-03.07.20:134][842]LogAIModule: Creating AISystem for world MainLevel
+[2024.03.11-03.07.20:135][842]LogPlayLevel: PIE: World Init took: (0.001117s)
+[2024.03.11-03.07.20:135][842]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.03.11-03.07.20:135][842]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.11-03.07.20:135][842]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.11-03.07.20:135][842]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.11-03.07.20:135][842]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.11-03.07.20:135][842]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.11-03.07.20:135][842]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.11-03.07.20:135][842]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.11-03.07.20:135][842]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.11-03.07.20:135][842]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.11-03.07.20:135][842]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.11-03.07.20:135][842]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.11-03.07.20:137][842]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.11-03.07.20:153][842]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.11-03.07.20:153][842]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.11-03.07.20:153][842]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.11-03.07.20:153][842]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.11-03.07.20:154][842]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.03.11-03.07.20:154][842]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.03.11-03.07.20:155][842]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.03.11-03.07.20:155][842]LogInit: FAudioDevice initialized with ID 18.
+[2024.03.11-03.07.20:155][842]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.03.11-03.07.20:155][842]LogAudio: Display: Audio Device (ID: 18) registered with world 'MainLevel'.
+[2024.03.11-03.07.20:155][842]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.03.11-03.07.20:160][842]LogLoad: Game class is 'GM_BoneFireGame_C'
+[2024.03.11-03.07.20:421][842]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2024.03.10-23.07.20
+[2024.03.11-03.07.20:439][842]LogWorld: Bringing up level for play took: 0.279074
+[2024.03.11-03.07.20:441][842]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.03.11-03.07.20:443][842]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Player/PlayerAssets/MainCharacter.MainCharacter]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2024.03.11-03.07.20:443][842]LogSkeletalMesh: Display: OnRegister[/Game/Characters/Player/PlayerAssets/MainCharacter.MainCharacter]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2024.03.11-03.07.20:457][842]LogBlueprintUserMessages: [BP_Player_C_0] Hello, event begin play
+[2024.03.11-03.07.20:458][842]PIE: Server logged in
+[2024.03.11-03.07.20:459][842]PIE: Play in editor total start time 0.567 seconds.
+[2024.03.11-03.07.21:177][874]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2024.03.11-03.07.21:575][895]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2024.03.11-03.07.22:162][930]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2024.03.11-03.07.22:395][944]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2024.03.11-03.07.23:241][995]LogBlueprintUserMessages: [BP_Player_C_0] IN PARRY WINDOW
+[2024.03.11-03.07.23:541][ 13]LogBlueprintUserMessages: [BP_Player_C_0] OUT PARRY WINDOW
+[2024.03.11-03.07.23:679][ 21]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2024.03.11-03.07.23:884][ 34]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2024.03.11-03.07.26:529][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-03.07.26:529][166]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2024.03.11-03.07.26:531][166]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-03.07.26:548][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-03.07.26:554][166]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.11-03.07.26:563][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-03.07.26:583][166]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.11-03.07.26:588][166]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.03.11-03.07.26:588][166]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.03.11-03.07.26:590][166]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.03.11-03.07.26:592][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-03.07.26:627][166]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2024.03.11-03.07.26:683][167]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2024.03.11-03.07.26:952][181]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2024.03.11-03.07.27:071][188]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2024.03.11-03.07.27:202][196]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2024.03.11-03.07.27:319][203]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2024.03.11-03.07.27:894][238]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2024.03.11-03.07.28:926][285]LogViewport: Scene viewport resized to 1267x655, mode Windowed.
+[2024.03.11-03.07.28:945][285]LogViewport: Scene viewport resized to 1267x655, mode Windowed.
+[2024.03.11-03.07.28:976][285]LogViewport: Scene viewport resized to 1267x655, mode Windowed.
+[2024.03.11-03.07.28:996][285]LogViewport: Scene viewport resized to 2549x1392, mode Windowed.
+[2024.03.11-03.07.29:033][286]LogViewport: Scene viewport resized to 2567x1534, mode Windowed.
+[2024.03.11-03.07.29:062][286]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2024.03.11-03.07.29:066][286]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2024.03.11-03.07.29:085][287]LogViewport: Scene viewport resized to 2567x1535, mode Windowed.
+[2024.03.11-03.07.29:106][287]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2024.03.11-03.07.29:109][287]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2024.03.11-03.07.29:109][287]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2024.03.11-03.07.29:112][287]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2024.03.11-03.07.29:523][308]LogViewport: Scene viewport resized to 2560x1475, mode Windowed.
+[2024.03.11-03.07.29:549][309]LogViewport: Scene viewport resized to 2553x1416, mode Windowed.
+[2024.03.11-03.07.29:596][310]LogViewport: Scene viewport resized to 2544x1351, mode Windowed.
+[2024.03.11-03.07.29:643][311]LogViewport: Scene viewport resized to 2541x1324, mode Windowed.
+[2024.03.11-03.07.29:690][312]LogViewport: Scene viewport resized to 2541x1318, mode Windowed.
+[2024.03.11-03.07.29:959][313]LogViewport: Scene viewport resized to 2540x1318, mode Windowed.
+[2024.03.11-03.07.30:006][314]LogViewport: Scene viewport resized to 2541x1318, mode Windowed.
+[2024.03.11-03.07.31:695][413]LogViewport: Scene viewport resized to 2535x1318, mode Windowed.
+[2024.03.11-03.07.31:732][414]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-03.07.31:743][414]LogViewport: Scene viewport resized to 2502x1318, mode Windowed.
+[2024.03.11-03.07.31:820][415]LogViewport: Scene viewport resized to 2376x1318, mode Windowed.
+[2024.03.11-03.07.31:878][416]LogViewport: Scene viewport resized to 2283x1318, mode Windowed.
+[2024.03.11-03.07.31:924][417]LogViewport: Scene viewport resized to 2260x1318, mode Windowed.
+[2024.03.11-03.07.31:967][418]LogViewport: Scene viewport resized to 2254x1318, mode Windowed.
+[2024.03.11-03.07.32:013][419]LogViewport: Scene viewport resized to 2232x1318, mode Windowed.
+[2024.03.11-03.07.32:059][420]LogViewport: Scene viewport resized to 2198x1318, mode Windowed.
+[2024.03.11-03.07.32:106][421]LogViewport: Scene viewport resized to 2146x1318, mode Windowed.
+[2024.03.11-03.07.32:152][422]LogViewport: Scene viewport resized to 2086x1318, mode Windowed.
+[2024.03.11-03.07.32:198][423]LogViewport: Scene viewport resized to 2022x1318, mode Windowed.
+[2024.03.11-03.07.32:245][424]LogViewport: Scene viewport resized to 1920x1318, mode Windowed.
+[2024.03.11-03.07.32:292][425]LogViewport: Scene viewport resized to 1780x1318, mode Windowed.
+[2024.03.11-03.07.32:338][426]LogViewport: Scene viewport resized to 1650x1318, mode Windowed.
+[2024.03.11-03.07.32:384][427]LogViewport: Scene viewport resized to 1542x1318, mode Windowed.
+[2024.03.11-03.07.32:423][428]LogViewport: Scene viewport resized to 1462x1318, mode Windowed.
+[2024.03.11-03.07.32:440][428]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.03.11-03.07.32:465][429]LogViewport: Scene viewport resized to 1396x1318, mode Windowed.
+[2024.03.11-03.07.32:470][429]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.03.11-03.07.32:505][430]LogViewport: Scene viewport resized to 1355x1318, mode Windowed.
+[2024.03.11-03.07.32:544][431]LogViewport: Scene viewport resized to 1347x1318, mode Windowed.
+[2024.03.11-03.07.32:580][432]LogViewport: Scene viewport resized to 1345x1318, mode Windowed.
+[2024.03.11-03.07.32:631][434]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2024.03.11-03.07.32:823][446]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.03.11-03.07.32:835][446]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2024.03.11-03.07.32:956][454]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2024.03.11-03.07.33:084][460]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2024.03.11-03.07.33:347][476]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2024.03.11-03.07.33:474][484]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.03.11-03.07.33:856][507]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.03.11-03.07.34:828][565]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-03.07.35:048][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainLevel" FILE="C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Content/Levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.11-03.07.35:087][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.03.11-03.07.35:097][565]LogLandscape: UpdateNaniteRepresentationAsync actor: 'Landscape' package:'/Game/Levels/MainLevel' dirty:0 component guid:'621C36AD1B0D46366232BAF1C2095F1D' proxy guid:'621C36AD1B0D46366232BAF1C2095F1D'
+[2024.03.11-03.07.35:097][565]LogLandscape: UpdateNaniteRepresentationAsync actor: 'Landscape' package:'/Game/Levels/MainLevel' dirty:0 component guid:'621C36AD1B0D46366232BAF1C2095F1D' proxy guid:'621C36AD1B0D46366232BAF1C2095F1D'
+[2024.03.11-03.07.35:097][565]LogLandscape: Display: UpdateNaniteRepresentation proxy:00000B090C52E000 target platform:0000000000000000 subsystem:00000B098990AD40
+[2024.03.11-03.07.35:338][565]LogLandscape: Display: InitializePlatformForLandscape 'Landscape' package:'/Game/Levels/MainLevel'
+[2024.03.11-03.07.35:338][565]LogLandscape: Display: InitializePlatformForLandscape 'Landscape' package:'/Game/Levels/MainLevel'
+[2024.03.11-03.07.35:338][565]LogLandscape: Display: InitializePlatformForLandscape 'Landscape' package:'/Game/Levels/MainLevel'
+[2024.03.11-03.07.35:338][565]LogLandscape: Display: InitializePlatformForLandscape 'Landscape' package:'/Game/Levels/MainLevel'
+[2024.03.11-03.07.35:338][565]LogLandscape: Display: InitializePlatformForLandscape 'Landscape' package:'/Game/Levels/MainLevel'
+[2024.03.11-03.07.35:338][565]LogLandscape: Display: InitializePlatformForLandscape 'Landscape' package:'/Game/Levels/MainLevel'
+[2024.03.11-03.07.35:338][565]LogLandscape: Display: InitializePlatformForLandscape 'Landscape' package:'/Game/Levels/MainLevel'
+[2024.03.11-03.07.35:338][565]LogLandscape: Display: InitializePlatformForLandscape 'Landscape' package:'/Game/Levels/MainLevel'
+[2024.03.11-03.07.37:697][565]LogSavePackage: Moving output files for package: /Game/Levels/MainLevel
+[2024.03.11-03.07.37:699][565]LogSavePackage: Moving 'C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Saved/MainLevelE9E2747F468D3C42C8E24E8B6F4C2291.tmp' to 'C:/Users/popos/Desktop/New folder (5)/Lords-of-The-Abyss/Content/Levels/MainLevel.umap'
+[2024.03.11-03.07.37:709][565]LogFileHelpers: All files are already saved.
+[2024.03.11-03.07.37:719][565]LogFileHelpers: Saving map 'MainLevel' took 2.673
+[2024.03.11-03.07.37:728][565]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.90 sec (total: 4.74 sec)
+[2024.03.11-03.07.37:740][565]AssetCheck: New page: Asset Save: MainLevel
+[2024.03.11-03.07.37:740][565]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainLevel.MainLevel
+[2024.03.11-03.07.37:748][565]LogAutomationController: Ignoring very large delta of 2.93 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.11-03.07.40:375][581]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2024.03.11-03.07.40:375][581]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2024.03.11-03.07.40:375][581]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2024.03.11-03.07.42:708][588]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2024.03.11-03.07.45:041][595]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
